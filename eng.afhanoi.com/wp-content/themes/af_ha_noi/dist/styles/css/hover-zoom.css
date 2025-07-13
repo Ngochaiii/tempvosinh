@@ -1,0 +1,31 @@
+.hover-zoom {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-zoom:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-zoom:hover:before {
+  opacity: 1;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.hover-zoom img {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}

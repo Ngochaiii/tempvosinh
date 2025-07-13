@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://afhanoi.com</provider_url><author_name>Nguy&#x1EC5;n Trung H&#x1EA3;i</author_name><author_url>https://afhanoi.com/author/haint/</author_url><title>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i ti&#x1EBF;p t&#x1EE5;c kh&#x1EB3;ng &#x111;&#x1ECB;nh v&#x1ECB; th&#x1EBF; &#x111;&#x1EA1;t chu&#x1EA9;n Qu&#x1ED1;c t&#x1EBF; trong H&#x1ED7; tr&#x1EE3; Sinh s&#x1EA3;n (RTAC)</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="bUGLJFpUTP"&gt;&lt;a href="https://afhanoi.com/benh-vien-nam-hoc-va-hiem-muon-ha-noi-tiep-tuc-khang-dinh-vi-the-dat-chuan-quoc-te-trong-ho-tro-sinh-san-rtac/"&gt;B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i ti&#x1EBF;p t&#x1EE5;c kh&#x1EB3;ng &#x111;&#x1ECB;nh v&#x1ECB; th&#x1EBF; &#x111;&#x1EA1;t chu&#x1EA9;n Qu&#x1ED1;c t&#x1EBF; trong H&#x1ED7; tr&#x1EE3; Sinh s&#x1EA3;n (RTAC)&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://afhanoi.com/benh-vien-nam-hoc-va-hiem-muon-ha-noi-tiep-tuc-khang-dinh-vi-the-dat-chuan-quoc-te-trong-ho-tro-sinh-san-rtac/embed/#?secret=bUGLJFpUTP" width="600" height="338" title="&#x201C;B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i ti&#x1EBF;p t&#x1EE5;c kh&#x1EB3;ng &#x111;&#x1ECB;nh v&#x1ECB; th&#x1EBF; &#x111;&#x1EA1;t chu&#x1EA9;n Qu&#x1ED1;c t&#x1EBF; trong H&#x1ED7; tr&#x1EE3; Sinh s&#x1EA3;n (RTAC)&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="bUGLJFpUTP" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><thumbnail_url>https://afhanoi.com/wp-content/uploads/2024/10/Rtac-2024-thumb.jpg</thumbnail_url><thumbnail_width>500</thumbnail_width><thumbnail_height>500</thumbnail_height><description>Ng&#xE0;y 07, 08/10/2024, B&#x1EC7;nh vi&#x1EC7;n vinh d&#x1EF1; v&#xE0; t&#x1EF1; h&#xE0;o ti&#x1EBF;p t&#x1EE5;c &#x111;&#x1B0;&#x1EE3;c ti&#x1EBF;p &#x111;&#xF3;n, l&#xE0;m vi&#x1EC7;c c&#xF9;ng &#x111;&#x1EA1;i di&#x1EC7;n &#x1EE6;y ban Ch&#x1EE9;ng nh&#x1EAD;n ch&#x1EA5;t l&#x1B0;&#x1EE3;ng v&#x1EC1; K&#x1EF9; thu&#x1EAD;t sinh s&#x1EA3;n (Reproductive Technology Accreditation Committee &#x2013; RTAC) thu&#x1ED9;c Hi&#x1EC7;p h&#x1ED9;i Sinh s&#x1EA3;n &#xDA;c (Fertility Society of Australia &#x2013; FSA), b&#xE0; Donna Close. N&#x103;m 2022, B&#x1EC7;nh [&hellip;]</description></oembed>

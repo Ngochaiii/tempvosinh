@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://afhanoi.com</provider_url><author_name>Nguy&#x1EC5;n Trung H&#x1EA3;i</author_name><author_url>https://afhanoi.com/author/haint/</author_url><title>H&#x1ED9;i ch&#x1EE9;ng Noonan &#x2013; Nhi&#x1EC1;u tr&#x1B0;&#x1EDD;ng h&#x1EE3;p ch&#x1B0;a &#x111;&#x1B0;&#x1EE3;c ch&#x1EA9;n &#x111;o&#xE1;n</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="yXwIqRL1fw"&gt;&lt;a href="https://afhanoi.com/hoi-chung-noonan-nhieu-truong-hop-chua-duoc-chan-doan/"&gt;H&#x1ED9;i ch&#x1EE9;ng Noonan &#x2013; Nhi&#x1EC1;u tr&#x1B0;&#x1EDD;ng h&#x1EE3;p ch&#x1B0;a &#x111;&#x1B0;&#x1EE3;c ch&#x1EA9;n &#x111;o&#xE1;n&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://afhanoi.com/hoi-chung-noonan-nhieu-truong-hop-chua-duoc-chan-doan/embed/#?secret=yXwIqRL1fw" width="600" height="338" title="&#x201C;H&#x1ED9;i ch&#x1EE9;ng Noonan &#x2013; Nhi&#x1EC1;u tr&#x1B0;&#x1EDD;ng h&#x1EE3;p ch&#x1B0;a &#x111;&#x1B0;&#x1EE3;c ch&#x1EA9;n &#x111;o&#xE1;n&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="yXwIqRL1fw" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><thumbnail_url>https://afhanoi.com/wp-content/uploads/2025/04/HOI-CHUNG-NOONAN-&#x2013;-NHIEU-TRUONG-HOP-CHUA-DUOC-CHAN-DOAN-01.jpg</thumbnail_url><thumbnail_width>1920</thumbnail_width><thumbnail_height>1920</thumbnail_height><description>&#xA0;T&#x1ED5;ng quan H&#x1ED9;i ch&#x1EE9;ng Noonan (Noonan syndrome &#x2013; NS) &#x111;&#x1EB7;c tr&#x1B0;ng b&#x1EDF;i c&#xE1;c b&#x1EA5;t th&#x1B0;&#x1EDD;ng v&#x1EC1; khu&#xF4;n m&#x1EB7;t, t&#x1EA7;m v&#xF3;c th&#x1EA5;p, tim b&#x1EA9;m sinh v&#xE0; ch&#x1EAD;m ph&#xE1;t tri&#x1EC3;n &#x1EDF; c&#xE1;c m&#x1EE9;c &#x111;&#x1ED9; kh&#xE1;c nhau. T&#x1EF7; l&#x1EC7; NS &#x111;&#x1B0;&#x1EE3;c b&#xE1;o c&#xE1;o kho&#x1EA3;ng 1:1.000 &#x111;&#x1EBF;n 1:2.500 ng&#x1B0;&#x1EDD;i. Bi&#x1EC3;u hi&#x1EC7;n nh&#x1EB9; c&#xF3; kh&#x1EA3; n&#x103;ng b&#x1ECB; b&#x1ECF; qua. Ch&#x1EA9;n [&hellip;]</description></oembed>

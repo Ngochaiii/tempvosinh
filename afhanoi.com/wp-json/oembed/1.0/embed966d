@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://afhanoi.com</provider_url><author_name>Nguy&#x1EC5;n Trung H&#x1EA3;i</author_name><author_url>https://afhanoi.com/author/haint/</author_url><title>&#x110;&#x1ED3;ng h&#xE0;nh c&#xF9;ng c&#x1ED9;ng &#x111;&#x1ED3;ng LGBT Th&#x1EE7; &#x110;&#xF4; - &#x201C;Cu&#x1ED1;i tu&#x1EA7;n VOL.8: Pride on&#x201D;</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="hJMbAWmHmY"&gt;&lt;a href="https://afhanoi.com/dong-hanh-cung-cong-dong-lgbt-thu-do-cuoi-tuan-vol-8-pride-on/"&gt;&#x110;&#x1ED3;ng h&#xE0;nh c&#xF9;ng c&#x1ED9;ng &#x111;&#x1ED3;ng LGBT Th&#x1EE7; &#x110;&#xF4; &#x2013; &#x201C;Cu&#x1ED1;i tu&#x1EA7;n VOL.8: Pride on&#x201D;&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://afhanoi.com/dong-hanh-cung-cong-dong-lgbt-thu-do-cuoi-tuan-vol-8-pride-on/embed/#?secret=hJMbAWmHmY" width="600" height="338" title="&#x201C;&#x110;&#x1ED3;ng h&#xE0;nh c&#xF9;ng c&#x1ED9;ng &#x111;&#x1ED3;ng LGBT Th&#x1EE7; &#x110;&#xF4; &#x2013; &#x201C;Cu&#x1ED1;i tu&#x1EA7;n VOL.8: Pride on&#x201D;&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="hJMbAWmHmY" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><thumbnail_url>https://afhanoi.com/wp-content/uploads/2023/06/Pride-on-w1024.jpg</thumbnail_url><thumbnail_width>1024</thumbnail_width><thumbnail_height>536</thumbnail_height><description>Th&#xE1;ng 6 h&#xE0;ng n&#x103;m &#x111;&#x1B0;&#x1EE3;c ch&#x1ECD;n l&#xE0;m Th&#xE1;ng T&#x1EF1; h&#xE0;o LGBTQ+ (Pride Month) v&#x1EDB;i mong mu&#x1ED1;n nh&#x1EEF;ng ng&#x1B0;&#x1EDD;i trong c&#x1ED9;ng &#x111;&#x1ED3;ng t&#x1EF1; h&#xE0;o v&#x1EC1; b&#x1EA3;n d&#x1EA1;ng gi&#x1EDB;i v&#xE0; xu h&#x1B0;&#x1EDB;ng t&#xED;nh d&#x1EE5;c c&#x1EE7;a h&#x1ECD;. &#x110;&#xF3; l&#xE0; t&#x1EEB; t&#x1EA1;o h&#xF3;a, l&#xE0; b&#x1EA9;m sinh v&#xE0; c&#x1EA7;n &#x111;&#x1B0;&#x1EE3;c t&#xF4;n tr&#x1ECD;ng. &#x110;&#xE2;y c&#x169;ng l&#xE0; th&#x1EDD;i &#x111;i&#x1EC3;m m&#xE0; c&#x1ED9;ng &#x111;&#x1ED3;ng [&hellip;]</description></oembed>

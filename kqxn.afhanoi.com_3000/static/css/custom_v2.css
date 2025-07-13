@@ -1,0 +1,186 @@
+/*OpenSans*/
+@font-face {
+  font-family: "OB";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OE";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OL";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OM";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OS";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OR";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+/*Roboto*/
+@font-face {
+  font-family: "RR";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RB";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RE";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RL";
+  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: unset;
+}
+
+body {
+  font-size: unset;
+  font-family: inherit;
+}
+h3 {
+  line-height: inherit;
+}
+
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-toggle {
+    display: flex !important;
+  }
+
+  .lg\:block {
+    display: block !important;
+  }
+
+  .lg\:flex {
+    display: flex !important;
+  }
+
+  .sm\:block {
+    display: block !important;
+  }
+
+  .sm\:flex {
+    display: flex !important;
+  }
+
+  .nav__container, .nav__mobile {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block !important;
+  }
+}
+
+.examine-wrapper {
+  padding: 22px 17px;
+  background-color: rgb(68, 138, 8);
+}
+
+.examine-wrapper1 {
+  padding: 22px 17px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 46px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.book-button {
+  background: #84ab00;
+  border: 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: 19px;
+  text-shadow: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+
+.collapse {
+  visibility: inherit;
+}
+
+.btnShowIcon-bar {
+  background-color: rgba(68, 138, 8);
+}
+
+.container {
+  padding-right: inherit;
+  padding-left: inherit;
+  margin-right: inherit;
+  margin-left: inherit;
+}
+
+.fade {
+  opacity: inherit;
+}
+
+.modal.fade .modal-dialog {
+  transition: inherit;
+  transform: inherit;
+  width: inherit;
+  margin: inherit;
+  position: inherit;
+}
+
+.modal-content {
+  padding: 0;
+}
+
+.modal-header {
+  padding: 0;
+  border-bottom: inherit;
+}
+
+label {
+  margin-bottom: 0;
+}
