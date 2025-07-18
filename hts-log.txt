@@ -402,9 +402,9 @@ https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 
 16:27:48	Warning: 	Moved Permanently for https://afhanoi.com/?p=44550
 
-16:27:48	Warning: 	File has moved from https://afhanoi.com/?p=44550 to https://afhanoi.com/goc-tri-an/be-nguyen-tue-an-11-07-2023/
+16:27:48	Warning: 	File has moved from https://afhanoi.com/?p=44550 to https://afhanoi.com/goc-tri-an/cam-tuong/
 
-16:27:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/goc-tri-an/39541/ (from https://afhanoi.com/goc-tri-an/be-nguyen-tue-an-11-07-2023/)
+16:27:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/goc-tri-an/39541/ (from https://afhanoi.com/goc-tri-an/cam-tuong/)
 
 16:28:36	Warning: 	Moved Permanently for https://afhanoi.com/?p=44547
 
