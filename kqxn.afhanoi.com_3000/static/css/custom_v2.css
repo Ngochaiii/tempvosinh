@@ -1,52 +1,52 @@
 /*OpenSans*/
 @font-face {
   font-family: "OB";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "OE";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "OL";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "OM";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Medium.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Open_Sans/OpenSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "OS";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "OR";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 }
 
 /*Roboto*/
 @font-face {
   font-family: "RR";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "RB";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "RE";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-ExtraBold.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Roboto/Roboto-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "RL";
-  src: url("http://kqxn.afhanoi.com:3000/static/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  src: url("http://kqxn.dongynguyenhuutoan:3000/static/fonts/Roboto/Roboto-Light.ttf") format("truetype");
 }
 
 html {

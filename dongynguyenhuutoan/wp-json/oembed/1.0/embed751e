@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://dongynguyenhuutoan</provider_url><author_name>L&#xEA; Vi&#x1EC7;t D&#x169;ng</author_name><author_url>https://luongynguyenhuutoan.com/author/dunglv/</author_url><title>H&#x1ED7; tr&#x1EE3; sinh s&#x1EA3;n (IUI/ IVF)</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="4a3k5w5ylc"&gt;&lt;a href="https://luongynguyenhuutoan.com/dich-vu/ho-tro-sinh-san-iui-ivf/"&gt;H&#x1ED7; tr&#x1EE3; sinh s&#x1EA3;n (IUI/ IVF)&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://luongynguyenhuutoan.com/dich-vu/ho-tro-sinh-san-iui-ivf/embed/#?secret=4a3k5w5ylc" width="600" height="338" title="&#x201C;H&#x1ED7; tr&#x1EE3; sinh s&#x1EA3;n (IUI/ IVF)&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="4a3k5w5ylc" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><thumbnail_url>https://luongynguyenhuutoan.com/wp-content/uploads/2023/10/dich-vu-01.jpg</thumbnail_url><thumbnail_width>750</thumbnail_width><thumbnail_height>499</thumbnail_height><description>Th&#x1EE5; tinh nh&#xE2;n t&#x1EA1;o l&#xE0; g&#xEC;? Th&#x1EE5; tinh nh&#xE2;n t&#x1EA1;o&#xA0;&#x111;&#x1B0;&#x1EE3;c bi&#x1EBF;t &#x111;&#x1EBF;n l&#xE0; m&#x1ED9;t ph&#x1B0;&#x1A1;ng ph&#xE1;p h&#x1ED7; tr&#x1EE3; sinh s&#x1EA3;n hi&#x1EC7;u qu&#x1EA3; &#x111;&#x1B0;&#x1EE3;c &#xE1;p d&#x1EE5;ng ph&#x1ED5; bi&#x1EBF;n trong &#x111;i&#x1EC1;u tr&#x1ECB; v&#xF4; sinh hi&#x1EBF;m mu&#x1ED9;n nh&#x1EB1;m mang &#x111;&#x1EBF;n c&#x1A1; h&#x1ED9;i &#x111;&#x1B0;&#x1EE3;c l&#xE0;m cha, l&#xE0;m m&#x1EB9; cho nhi&#x1EC1;u c&#x1EB7;p v&#x1EE3; ch&#x1ED3;ng. Tuy nhi&#xEA;n,&#xA0;th&#x1EE5; tinh nh&#xE2;n t&#x1EA1;o l&#xE0; [&hellip;]</description></oembed>

@@ -1,6 +1,6 @@
 HTTrack3.49-2+htsswf+htsjava launched on Sat, 12 Jul 2025 15:17:08 at https://luongynguyenhuutoan.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
 https://luongynguyenhuutoan.com/
-(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y https://afhanoi.com/ -O1 "D:\Project\vosinh" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y https://dongynguyenhuutoan/ -O1 "D:\Project\vosinh" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 
 
@@ -14,81 +14,81 @@ https://luongynguyenhuutoan.com/
 
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:20:31	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/https://luongynguyenhuutoan.com/ps://afhanoi.com/)https://luongynguyenhuutoan.com/
+15:20:31	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/https://luongynguyenhuutoan.com/ps://dongynguyenhuutoan/)https://luongynguyenhuutoan.com/
 
-15:20:50	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/apis.com/ (from https://afhanoi.com/)https://luongynguyenhuutoan.com/
+15:20:50	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/apis.com/ (from https://dongynguyenhuutoan/)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:20:50	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/c.com/ (from https://afhanoi.com/)https://luongynguyenhuutoan.com/
+15:20:50	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/c.com/ (from https://dongynguyenhuutoan/)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:20:58	Error: 	"Forbidden" (403) at link https://luongynguyenhuutoan.com/ome.com/86da5e6550.js (from https://afhanoi.com/)https://luongynguyenhuutoan.com/
+15:20:58	Error: 	"Forbidden" (403) at link https://luongynguyenhuutoan.com/ome.com/86da5e6550.js (from https://dongynguyenhuutoan/)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:21:38	Warning: 	Link https://eng.afhanoihttps://luongynguyenhuutoan.com/ollow robots meta tag)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:22:18	Warning: 	file not stored in cachehttps://luongynguyenhuutoan.com/(incomplete type with No Content (204), size 0): https://www.youtube.https://luongynguyenhuutoan.com/ror&level=ERROR
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:22:39	Warning: 	Retry after error -4 (Nohttps://luongynguyenhuutoan.com/osed)) at link https://afhanoi.com/wp-content/themes/af_ha_noi/dist/imaghttps://luongynguyenhuutoan.com/.png (from https://afhanoi.com/)
+15:22:39	Warning: 	Retry after error -4 (Nohttps://luongynguyenhuutoan.com/osed)) at link https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/imaghttps://luongynguyenhuutoan.com/.png (from https://dongynguyenhuutoan/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:26:03	Warning: 	Retry after error -4 (Nohttps://luongynguyenhuutoan.com/osed)) at link https://afhanoi.com/chuyen-muc/vo-sinh-hiem-muon/ (from https:https://luongynguyenhuutoan.com/
+15:26:03	Warning: 	Retry after error -4 (Nohttps://luongynguyenhuutoan.com/osed)) at link https://dongynguyenhuutoan/chuyen-muc/vo-sinh-hiem-muon/ (from https:https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:27:08	Warning: 	Retry after error -4 (Nohttps://luongynguyenhuutoan.com/osed)) at link https://afhanoi.com/giam-ham-muon-tinh-duc-d/ (from https://afhahttps://luongynguyenhuutoan.com/
+15:27:08	Warning: 	Retry after error -4 (Nohttps://luongynguyenhuutoan.com/osed)) at link https://dongynguyenhuutoan/giam-ham-muon-tinh-duc-d/ (from https://afhahttps://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:28:58	Warning: 	Link kqxn.afhanoi.com:30https://luongynguyenhuutoan.com/ua not scanned (follow robots meta tag)https://luongynguyenhuutoan.com/
+15:28:58	Warning: 	Link kqxn.dongynguyenhuutoan:30https://luongynguyenhuutoan.com/ua not scanned (follow robots meta tag)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:34:14	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Bold.https://luongynguyenhuutoan.com/hanoi.com/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Exthttps://luongynguyenhuutoan.com/ps://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Exthttps://luongynguyenhuutoan.com/ps://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSahttps://luongynguyenhuutoan.com/ttps://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSahttps://luongynguyenhuutoan.com/ttps://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/wp-content/stylechung/wp-content/stylhttps://luongynguyenhuutoan.com/s/OpenSans-Medium.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://luongynguyenhuutoan.com/wp-content/stylechung/wp-content/stylhttps://luongynguyenhuutoan.com/s/OpenSans-Medium.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/tent/stylechung/fonts/OpenSans/OpenSans-SemiBold.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/tent/stylechung/fonts/OpenSans/OpenSans-SemiBold.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Regular.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Regular.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Bold.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Bold.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-ExtraBold.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-ExtraBold.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Light.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Light.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Medium.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Medium.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-SemiBold.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-SemiBold.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Regular.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Regular.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Bold.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Bold.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/hung/fonts/Roboto/RobotoCondensed-BoldItalic.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/hung/fonts/Roboto/RobotoCondensed-BoldItalic.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-content/stylechung/sthttps://luongynguyenhuutoan.com/o/RobotoCondensed-Italic.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-content/stylechung/sthttps://luongynguyenhuutoan.com/o/RobotoCondensed-Italic.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/hung/fonts/Roboto/RobotoCondensed-Light.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/hung/fonts/Roboto/RobotoCondensed-Light.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-LightItalic.ttf (from https://afhanoi.com/wp-content/stylechung/stylechung.css)
+15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-LightItalic.ttf (from https://dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at link https://afhanoi.com/wp-content/stylhttps://luongynguyenhuutoan.com/? (from https://afhanoi.com/wp-content/stylechung/https://luongynguyenhuutoan.com/
+15:34:14	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/wp-content/stylhttps://luongynguyenhuutoan.com/? (from https://dongynguyenhuutoan/wp-content/stylechung/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-conhttps://luongynguyenhuutoan.com/i/dist/fonts/Roboto/Roboto-ExtraBold.ttf (from https://afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
+15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-conhttps://luongynguyenhuutoan.com/i/dist/fonts/Roboto/Roboto-ExtraBold.ttf (from https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/dist/fonts/Roboto/Roboto-SemiBold.ttf (from https://afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
+15:34:14	Error: 	"Not Found" (404) at lhttps://luongynguyenhuutoan.com/com/wp-contehttps://luongynguyenhuutoan.com/dist/fonts/Roboto/Roboto-SemiBold.ttf (from https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
 https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Forbidden" (403) at lhttps://luongynguyenhuutoan.com/oup.info/wphttps://luongynguyenhuutoan.com/a_noi_mobile/dist/images/iconPrev.png (from https://afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
+15:34:14	Error: 	"Forbidden" (403) at lhttps://luongynguyenhuutoan.com/oup.info/wphttps://luongynguyenhuutoan.com/a_noi_mobile/dist/images/iconPrev.png (from https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Forbidden" (403) at link afhanoi.wecan-group.info/wp-contenthttps://luongynguyenhuutoan.com/bile/dist/images/icon_next.png (from https://afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)https://luongynguyenhuutoan.com/
+15:34:14	Error: 	"Forbidden" (403) at link afhanoi.wecan-group.info/wp-contenthttps://luongynguyenhuutoan.com/bile/dist/images/icon_next.png (from https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/themes/af_ha_noi/dist/styles/css/<?=%20$url%20? (from https://afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/chung.css)
+15:34:14	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/wp-content/themes/af_ha_noi/dist/styles/css/<?=%20$url%20? (from https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/chung.css)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:15	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/true/ (from https://afhanoi.com/wp-includes/js/jquery/jquery.js?ver=3.7.1)
+15:34:15	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/true/ (from https://dongynguyenhuutoan/wp-includes/js/jquery/jquery.js?ver=3.7.1)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:15	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/+http:/www.google.com/bot.html (from https://afhanoi.com/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=78442573)
+15:34:15	Error: 	"Not Found" (404) at linhttps://luongynguyenhuutoan.com/m/+http:/www.google.com/bot.html (from https://dongynguyenhuutoan/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=78442573)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:34:15	Warning: 	Moved Permanently for https://afhanoi.com/?p=45781https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
+15:34:15	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=45781https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 15:34:15	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=45781 to https://luongynguyenhuutoan.com/yeu-thuong-lan-toa-hanh-trinh-ket-noi-dong-hanh-trao-co-hoi-lam-cha-me-cho-quan-nhan-hiem-muon/
 https://luongynguyenhuutoan.com/
-15:34:44	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) https://luongynguyenhuutoan.com/afhanoi.com/wp-content/uploads/2023/12/Logo-AFHANOI-04-favicon-w512.png (from https://eng.afhanoi.com/)
+15:34:44	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) https://luongynguyenhuutoan.com/dongynguyenhuutoan/wp-content/uploads/2023/12/Logo-AFHANOI-04-favicon-w512.png (from https://eng.dongynguyenhuutoan/)
 https://luongynguyenhuutoan.com/
 15:37:52	Error: 	"No Content" (204) at https://luongynguyenhuutoan.com/tube.com/erhttps://luongynguyenhuutoan.com/vel=ERROR (from https://www.youtube.com/@afhanoichannel)
 https://luongynguyenhuutoan.com/
@@ -112,65 +112,65 @@ https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:46:46	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=39277
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:46:46	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=39277 to https://afhanoi.com/huong-dan-tham-kham/
+15:46:46	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=39277 to https://dongynguyenhuutoan/huong-dan-tham-kham/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:46:54	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=27485
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:46:54	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=27485 to https://afhanoi.com/quy-trinh-tham-kham/
+15:46:54	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=27485 to https://dongynguyenhuutoan/quy-trinh-tham-kham/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:47:28	Warning: 	Retry after error -2 (https://luongynguyenhuutoan.com/ link www.adobe.com/images/shared/download_buttons/get_flash_player.gif (from https://360.afhanoi.com/)
+15:47:28	Warning: 	Retry after error -2 (https://luongynguyenhuutoan.com/ link www.adobe.com/images/shared/download_buttons/get_flash_player.gif (from https://360.dongynguyenhuutoan/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:50:39	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=26981
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=26981 to https://afhanoi.com/tong-quan-ve-benh-vien/
+15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=26981 to https://dongynguyenhuutoan/tong-quan-ve-benh-vien/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	Moved Permanently for https://afhanoi.com/ban-sac-van-hoa-hhttps://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
+15:50:39	Warning: 	Moved Permanently for https://dongynguyenhuutoan/ban-sac-van-hoa-hhttps://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	File has moved from https://luongynguyenhuutoan.com/ban-sac-vahttps://luongynguyenhuutoan.com/tps://afhanoi.com/ban-sac-van-hoaban-sac-van-hoa-hop-tam/
+15:50:39	Warning: 	File has moved from https://luongynguyenhuutoan.com/ban-sac-vahttps://luongynguyenhuutoan.com/tps://dongynguyenhuutoan/ban-sac-van-hoaban-sac-van-hoa-hop-tam/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:50:39	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=43632
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=43632 to https://afhanoi.com/lich-su-va-cau-chuyen/
+15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=43632 to https://dongynguyenhuutoan/lich-su-va-cau-chuyen/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://afhanoi.com/wp-content/uploads/2024/12/2015-2019.jpg (from https://afhanoi.com/lich-su-va-cau-chuyen/)
+15:50:39	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://dongynguyenhuutoan/wp-content/uploads/2024/12/2015-2019.jpg (from https://dongynguyenhuutoan/lich-su-va-cau-chuyen/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:50:39	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=26982
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=26982 to https://afhanoi.com/co-so-vat-chat/
+15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=26982 to https://dongynguyenhuutoan/co-so-vat-chat/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://afhanoi.com/wp-content/uploads/2021/10/9-1-1024x709.jpg (from https://afhanoi.com/co-so-vat-chat/)
+15:50:39	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://dongynguyenhuutoan/wp-content/uploads/2021/10/9-1-1024x709.jpg (from https://dongynguyenhuutoan/co-so-vat-chat/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:50:39	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=198
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=198 to https://afhanoi.com/doi-ngu-chuyen-mon/
+15:50:39	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=198 to https://dongynguyenhuutoan/doi-ngu-chuyen-mon/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:52:28	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=43530
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:28	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=43530 to https://afhanoi.com/doi-ngu-quan-tri/
+15:52:28	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=43530 to https://dongynguyenhuutoan/doi-ngu-quan-tri/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:52:28	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=1473
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:28	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=1473 to https://afhanoi.com/hop-tac-chuyen-mon/
+15:52:28	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=1473 to https://dongynguyenhuutoan/hop-tac-chuyen-mon/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:35	Error: 	"Not Found" (404) at link https://afhanoi.com/hop-tac-thu-tinhttps://luongynguyenhuutoan.com/iua-benh-vien-nam-hoc-hiem-muon-ha-noi-va-benh-vien-phu-san-trung-uong (from https://afhanoi.com/hophttps://luongynguyenhuutoan.com/
+15:52:35	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/hop-tac-thu-tinhttps://luongynguyenhuutoan.com/iua-benh-vien-nam-hoc-hiem-muon-ha-noi-va-benh-vien-phu-san-trung-uong (from https://dongynguyenhuutoan/hophttps://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:35	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://afhanoi.com/wp-content/uploads/2023/11/LE-KY-KET-BIEN-BAN-GHI-NHO-HOP-TAC-GIUA-BENH-VIEN-NAM-HOC-VA-HIEM-MUON-HA-NOI-–-EZYHEALTHCARE.1.jpg (from https://afhanoi.com/hop-tac-chuyen-mon/)
+15:52:35	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://dongynguyenhuutoan/wp-content/uploads/2023/11/LE-KY-KET-BIEN-BAN-GHI-NHO-HOP-TAC-GIUA-BENH-VIEN-NAM-HOC-VA-HIEM-MUON-HA-NOI-–-EZYHEALTHCARE.1.jpg (from https://dongynguyenhuutoan/hop-tac-chuyen-mon/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://luongynguyenhuutoan.com/wp-json/wp/v2/pages/43578 (from https://afhanoi.com/triet-ly-su-menh-tam-nhin/)https://luongynguyenhuutoan.com/
+15:52:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://luongynguyenhuutoan.com/wp-json/wp/v2/pages/43578 (from https://dongynguyenhuutoan/triet-ly-su-menh-tam-nhin/)https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:37	Warning: 	Moved Permanently for https://afhanoi.com/?p=43578https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
+15:52:37	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=43578https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 15:52:37	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=43578 to https://luongynguyenhuutoan.com/triet-ly-su-menh-tam-nhin/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 15:52:37	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=43605
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:37	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=43605 to https://afhanoi.com/gia-tri-cot-loi/
+15:52:37	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=43605 to https://dongynguyenhuutoan/gia-tri-cot-loi/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-15:52:37	Warning: 	Moved Permanently for https://afhanoi.com/?p=43612https://luongynguyenhuutoan.com/
+15:52:37	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=43612https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
-15:52:37	Warning: 	File has moved from https://afhanoi.com/?p=43612 to https:/https://luongynguyenhuutoan.com/-van-hoa/https://luongynguyenhuutoan.com/
+15:52:37	Warning: 	File has moved from https://dongynguyenhuutoan/?p=43612 to https:/https://luongynguyenhuutoan.com/-van-hoa/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
-15:52:40	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) https://luongynguyenhuutoan.com/noi.com/chuyen-muc/ho-tro-sinh-san/feed/ (from https://afhanoi.com/chuyen-muc/ho-tro-sinh-san/)
+15:52:40	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) https://luongynguyenhuutoan.com/noi.com/chuyen-muc/ho-tro-sinh-san/feed/ (from https://dongynguyenhuutoan/chuyen-muc/ho-tro-sinh-san/)
 https://luongynguyenhuutoan.com/
 16:17:46	Warning: 	Moved Permanently fohttps://luongynguyenhuutoan.com/m/?p=26984https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
@@ -182,17 +182,17 @@ https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 16:18:11	Warning: 	Moved Permanently fohttps://luongynguyenhuutoan.com/m/?p=1263https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:11	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=1263 to https://afhanoi.com/vo-sinh-do-di-tat-tu-cung/
+16:18:11	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=1263 to https://dongynguyenhuutoan/vo-sinh-do-di-tat-tu-cung/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:18:21	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=1265
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:21	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=1265 to https://afhanoi.com/dinh-buong-tu-cung-va-cach-dieu-tri/
+16:18:21	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=1265 to https://dongynguyenhuutoan/dinh-buong-tu-cung-va-cach-dieu-tri/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:18:22	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=374
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:22	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=374 to https://afhanoi.com/vo-sinh-nu-do-tac-voi-trung/
+16:18:22	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=374 to https://dongynguyenhuutoan/vo-sinh-nu-do-tac-voi-trung/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:23	Warning: 	Moved Permanently for https://afhanoi.com/?p=34609https://luongynguyenhuutoan.com/
+16:18:23	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=34609https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 16:18:23	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=34609 to https://luongynguyenhuutoan.com/suy-buong-trung/
 https://luongynguyenhuutoan.com/
@@ -200,33 +200,33 @@ https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 16:18:34	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=34615 to https://luongynguyenhuutoan.com/dau-hieu-cua-hoi-chung-buong-trung-da-nang/
 https://luongynguyenhuutoan.com/
-16:18:38	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) ahttps://luongynguyenhuutoan.com/oi.com/wp-content/uploads/2024/10/Boc-hoa-la-mot-trong-nhung-trieu-chung-kha-pho-bien-o-phu-nu-man-kinh-thumb.jpg (from https://afhanoi.com/dau-hieu-cua-hoi-chung-buong-trung-da-nang/)
+16:18:38	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) ahttps://luongynguyenhuutoan.com/oi.com/wp-content/uploads/2024/10/Boc-hoa-la-mot-trong-nhung-trieu-chung-kha-pho-bien-o-phu-nu-man-kinh-thumb.jpg (from https://dongynguyenhuutoan/dau-hieu-cua-hoi-chung-buong-trung-da-nang/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:18:47	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=34642
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:47	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34642 to https://afhanoi.com/phuong-phap-dieu-tri-benh-khong-xuat-tinh/
+16:18:47	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34642 to https://dongynguyenhuutoan/phuong-phap-dieu-tri-benh-khong-xuat-tinh/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:18:49	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=34643
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:49	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34643 to https://afhanoi.com/tac-ong-dan-tinh/
+16:18:49	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34643 to https://dongynguyenhuutoan/tac-ong-dan-tinh/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://luongynguyenhuutoan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fafhanoi.com%2Ftac-ong-dan-tinh%2F https://luongynguyenhuutoan.com/i.com/tac-ong-dan-tinh/)
+16:18:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://luongynguyenhuutoan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdongynguyenhuutoan%2Ftac-ong-dan-tinh%2F https://luongynguyenhuutoan.com/i.com/tac-ong-dan-tinh/)
 https://luongynguyenhuutoan.com/
 16:18:51	Warning: 	Moved Permanently fohttps://luongynguyenhuutoan.com/m/?p=34644https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:51	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34644 to https://afhanoi.com/van-de-roi-loan-noi-tiet-o-nam-gioi/
+16:18:51	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34644 to https://dongynguyenhuutoan/van-de-roi-loan-noi-tiet-o-nam-gioi/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:18:52	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=34646
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:52	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34646 to https://afhanoi.com/vo-sinh-o-nam-va-nu-do-di-truyen-co-the-ban-chua-biet/
+16:18:52	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34646 to https://dongynguyenhuutoan/vo-sinh-o-nam-va-nu-do-di-truyen-co-the-ban-chua-biet/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:56	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://afhanoi.com/wp-json/wp/v2/posts/34627 (from https://afhanoi.com/gan-tinh-mach-tinh-nhung-dieu-can-biet/)
+16:18:56	Warning: 	Retry after error -4 (https://luongynguyenhuutoan.com/closed)) at link https://dongynguyenhuutoan/wp-json/wp/v2/posts/34627 (from https://dongynguyenhuutoan/gan-tinh-mach-tinh-nhung-dieu-can-biet/)
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:18:57	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=34627
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:57	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34627 to https://afhanoi.com/gan-tinh-mach-tinh-nhung-dieu-can-biet/
+16:18:57	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=34627 to https://dongynguyenhuutoan/gan-tinh-mach-tinh-nhung-dieu-can-biet/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:18:57	Warning: 	Moved Permanently for https://afhanoi.com/?p=251https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
+16:18:57	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=251https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 16:18:57	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=251 to hthttps://luongynguyenhuutoan.com/u-tinh-ong-nghiem/
 https://luongynguyenhuutoan.com/
@@ -244,273 +244,273 @@ https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:20:25	Warning: 	Moved Permanently for https://luongynguyenhuutoan.com/?p=26990
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:20:25	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=26990 to https://afhanoi.com/man-duc-nam/
+16:20:25	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=26990 to https://dongynguyenhuutoan/man-duc-nam/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:20:26	Warning: 	Moved Permanently for https://afhanoi.com/?p=1499https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
+16:20:26	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=1499https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 16:20:26	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=1499 to hhttps://luongynguyenhuutoan.com/ai-nan-phong-the/
 https://luongynguyenhuutoan.com/
-16:20:26	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) ahttps://luongynguyenhuutoan.com/oi.com/wp-json/wp/v2/posts/931 (from https://afhanoi.com/tinh-hoan-an/)
+16:20:26	Warning: 	Retry after error -4https://luongynguyenhuutoan.com/n closed)) ahttps://luongynguyenhuutoan.com/oi.com/wp-json/wp/v2/posts/931 (from https://dongynguyenhuutoan/tinh-hoan-an/)
 https://luongynguyenhuutoan.com/
 16:20:26	Warning: 	Moved Permanently fohttps://luongynguyenhuutoan.com/m/?p=931https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/
 16:20:26	Warning: 	File has moved from https://luongynguyenhuutoan.com/?p=931 to hthttps://luongynguyenhuutoan.com/nh-hoan-an/
 
-16:20:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fafhanoi.com%2Ftinh-hoan-an%2F (from https://afhanoi.com/tinh-hoan-an/)
+16:20:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdongynguyenhuutoan%2Ftinh-hoan-an%2F (from https://dongynguyenhuutoan/tinh-hoan-an/)
 
-16:20:27	Warning: 	Moved Permanently for https://afhanoi.com/?p=933
+16:20:27	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=933
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:20:27	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=933 to https://afhanoi.com/tinh-hoan-lac-cho/
+16:20:27	Warning: 	File has moved from hthttps://luongynguyenhuutoan.com/=933 to https://dongynguyenhuutoan/tinh-hoan-lac-cho/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:20:27	Warning: 	Moved Permanently fohttps://luongynguyenhuutoan.com/m/?p=34631https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 16:20:27	Warning: 	File has moved from httphttps://luongynguyenhuutoan.com/4631 to https://afhanohttps://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:20:29	Warning: 	Moved Permanently for https://afhanoi.com/?p=970
+16:20:29	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=970
 
-16:20:29	Warning: 	File has moved from https://afhanoi.com/?p=970 to https://ahttps://luongynguyenhuutoan.com/ben/https://luongynguyenhuutoan.com/
+16:20:29	Warning: 	File has moved from https://dongynguyenhuutoan/?p=970 to https://ahttps://luongynguyenhuutoan.com/ben/https://luongynguyenhuutoan.com/
 https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
-16:20:33	Warning: 	Moved Permanently for https://afhanoi.com/?p=34633
+16:20:33	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=34633
 
-16:20:33	Warning: 	File has moved from https://afhanoi.com/?p=34633 to https://afhanoi.com/so-cuu-vat-hang/
+16:20:33	Warning: 	File has moved from https://dongynguyenhuutoan/?p=34633 to https://dongynguyenhuutoan/so-cuu-vat-hang/
 
-16:20:34	Warning: 	Moved Permanently for https://afhanoi.com/?p=26992
+16:20:34	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=26992
 
-16:20:34	Warning: 	File has moved from https://afhanoi.com/?p=26992 to https://afhanoi.com/lau/
+16:20:34	Warning: 	File has moved from https://dongynguyenhuutoan/?p=26992 to https://dongynguyenhuutoan/lau/
 
-16:20:34	Warning: 	Moved Permanently for https://afhanoi.com/?p=1548
+16:20:34	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=1548
 
-16:20:34	Warning: 	File has moved from https://afhanoi.com/?p=1548 to https://afhanoi.com/giang-mai/
+16:20:34	Warning: 	File has moved from https://dongynguyenhuutoan/?p=1548 to https://dongynguyenhuutoan/giang-mai/
 
-16:20:34	Warning: 	Moved Permanently for https://afhanoi.com/?p=26993
+16:20:34	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=26993
 
-16:20:34	Warning: 	File has moved from https://afhanoi.com/?p=26993 to https://afhanoi.com/sui-mao-ga/
+16:20:34	Warning: 	File has moved from https://dongynguyenhuutoan/?p=26993 to https://dongynguyenhuutoan/sui-mao-ga/
 
-16:20:34	Warning: 	Moved Permanently for https://afhanoi.com/?p=26994
+16:20:34	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=26994
 
-16:20:34	Warning: 	File has moved from https://afhanoi.com/?p=26994 to https://afhanoi.com/viem-gan-b/
+16:20:34	Warning: 	File has moved from https://dongynguyenhuutoan/?p=26994 to https://dongynguyenhuutoan/viem-gan-b/
 
-16:20:41	Warning: 	Moved Permanently for https://afhanoi.com/?p=1556
+16:20:41	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=1556
 
-16:20:41	Warning: 	File has moved from https://afhanoi.com/?p=1556 to https://afhanoi.com/hiv/
+16:20:41	Warning: 	File has moved from https://dongynguyenhuutoan/?p=1556 to https://dongynguyenhuutoan/hiv/
 
-16:21:01	Warning: 	Moved Permanently for https://afhanoi.com/?p=26783
+16:21:01	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=26783
 
-16:21:01	Warning: 	File has moved from https://afhanoi.com/?p=26783 to https://afhanoi.com/co-that-am-dao/
+16:21:01	Warning: 	File has moved from https://dongynguyenhuutoan/?p=26783 to https://dongynguyenhuutoan/co-that-am-dao/
 
-16:21:01	Warning: 	Moved Permanently for https://afhanoi.com/?p=360
+16:21:01	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=360
 
-16:21:01	Warning: 	File has moved from https://afhanoi.com/?p=360 to https://afhanoi.com/lanh-cam-tinh-duc-nu-gioi/
+16:21:01	Warning: 	File has moved from https://dongynguyenhuutoan/?p=360 to https://dongynguyenhuutoan/lanh-cam-tinh-duc-nu-gioi/
 
-16:21:02	Warning: 	Moved Permanently for https://afhanoi.com/?p=1270
+16:21:02	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=1270
 
-16:21:02	Warning: 	File has moved from https://afhanoi.com/?p=1270 to https://afhanoi.com/trieu-chung-cua-tac-ong-dan-trung/
+16:21:02	Warning: 	File has moved from https://dongynguyenhuutoan/?p=1270 to https://dongynguyenhuutoan/trieu-chung-cua-tac-ong-dan-trung/
 
-16:21:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fafhanoi.com%2Ftrieu-chung-cua-tac-ong-dan-trung%2F (from https://afhanoi.com/trieu-chung-cua-tac-ong-dan-trung/)
+16:21:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdongynguyenhuutoan%2Ftrieu-chung-cua-tac-ong-dan-trung%2F (from https://dongynguyenhuutoan/trieu-chung-cua-tac-ong-dan-trung/)
 
-16:21:03	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/chuyen-muc/y-hoc-gioi-tinh/lgbt/page/2/ (from https://afhanoi.com/chuyen-muc/y-hoc-gioi-tinh/lgbt/)
+16:21:03	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/chuyen-muc/y-hoc-gioi-tinh/lgbt/page/2/ (from https://dongynguyenhuutoan/chuyen-muc/y-hoc-gioi-tinh/lgbt/)
 
-16:25:23	Warning: 	Moved Permanently for https://afhanoi.com/?p=39684
+16:25:23	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=39684
 
-16:25:23	Warning: 	File has moved from https://afhanoi.com/?p=39684 to https://afhanoi.com/thu-vien-an-pham/
+16:25:23	Warning: 	File has moved from https://dongynguyenhuutoan/?p=39684 to https://dongynguyenhuutoan/thu-vien-an-pham/
 
-16:25:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fafhanoi.com%2Fthu-vien-an-pham%2F&format=xml (from https://afhanoi.com/thu-vien-an-pham/)
+16:25:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdongynguyenhuutoan%2Fthu-vien-an-pham%2F&format=xml (from https://dongynguyenhuutoan/thu-vien-an-pham/)
 
-16:26:03	Error: 	"Not Found" (404) at link https://afhanoi.com/an-pham/profile-benh-vien/ (from https://afhanoi.com/thu-vien-an-pham/)
+16:26:03	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/an-pham/profile-benh-vien/ (from https://dongynguyenhuutoan/thu-vien-an-pham/)
 
-16:26:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-content/uploads/2024/01/Mai-Phuong-Du-CSKH.jpg (from https://afhanoi.com/van-hoa-afhanoi/)
+16:26:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-content/uploads/2024/01/Mai-Phuong-Du-CSKH.jpg (from https://dongynguyenhuutoan/van-hoa-afhanoi/)
 
-16:27:02	Warning: 	Moved Permanently for https://afhanoi.com/?p=27396
+16:27:02	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=27396
 
-16:27:02	Warning: 	File has moved from https://afhanoi.com/?p=27396 to https://afhanoi.com/ho-tro-khach-hang/
+16:27:02	Warning: 	File has moved from https://dongynguyenhuutoan/?p=27396 to https://dongynguyenhuutoan/ho-tro-khach-hang/
 
-16:27:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fafhanoi.com%2Fho-tro-khach-hang%2F (from https://afhanoi.com/ho-tro-khach-hang/)
+16:27:02	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdongynguyenhuutoan%2Fho-tro-khach-hang%2F (from https://dongynguyenhuutoan/ho-tro-khach-hang/)
 
-16:27:07	Warning: 	Moved Permanently for https://afhanoi.com/?p=77
+16:27:07	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=77
 
-16:27:07	Warning: 	File has moved from https://afhanoi.com/?p=77 to https://afhanoi.com/bang-gia-dich-vu/
+16:27:07	Warning: 	File has moved from https://dongynguyenhuutoan/?p=77 to https://dongynguyenhuutoan/bang-gia-dich-vu/
 
-16:27:07	Warning: 	Moved Permanently for https://afhanoi.com/?p=26228
+16:27:07	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=26228
 
-16:27:07	Warning: 	File has moved from https://afhanoi.com/?p=26228 to https://afhanoi.com/khach-hang-thanh-vien/
+16:27:07	Warning: 	File has moved from https://dongynguyenhuutoan/?p=26228 to https://dongynguyenhuutoan/khach-hang-thanh-vien/
 
-16:27:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-content/themes/af_ha_noi/dist/fonts/fontawesome-pro-5.8.2-web/css/all.css (from kqxn.afhanoi.com:3000/api/tra-cuu-ket-qua)
+16:27:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/fonts/fontawesome-pro-5.8.2-web/css/all.css (from kqxn.dongynguyenhuutoan:3000/api/tra-cuu-ket-qua)
 
-16:27:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-content/themes/af_ha_noi/dist/fonts/fontawesome-pro-5.8.2-web/css/font-awesome.css (from kqxn.afhanoi.com:3000/api/tra-cuu-ket-qua)
+16:27:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/fonts/fontawesome-pro-5.8.2-web/css/font-awesome.css (from kqxn.dongynguyenhuutoan:3000/api/tra-cuu-ket-qua)
 
-16:27:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/wp/v2/pages/1086 (from https://afhanoi.com/lien-he/)
+16:27:07	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/wp/v2/pages/1086 (from https://dongynguyenhuutoan/lien-he/)
 
-16:27:07	Warning: 	Moved Permanently for https://afhanoi.com/?p=1086
+16:27:07	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=1086
 
-16:27:07	Warning: 	File has moved from https://afhanoi.com/?p=1086 to https://afhanoi.com/lien-he/
+16:27:07	Warning: 	File has moved from https://dongynguyenhuutoan/?p=1086 to https://dongynguyenhuutoan/lien-he/
 
-16:27:07	Warning: 	Moved Permanently for https://afhanoi.com/?p=34700
+16:27:07	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=34700
 
-16:27:07	Warning: 	File has moved from https://afhanoi.com/?p=34700 to https://afhanoi.com/benh-vien-nam-hoc-va-hiem-muon-ha-noi-vinh-du-tro-thanh-1-trong-nhung-don-vi-dau-tien-tai-mien-bac-dat-chung-nhan-chuan-chat-luong-quoc-te-rtac-trong-ho-tro-sinh-san/
+16:27:07	Warning: 	File has moved from https://dongynguyenhuutoan/?p=34700 to https://dongynguyenhuutoan/benh-vien-nam-hoc-va-hiem-muon-ha-noi-vinh-du-tro-thanh-1-trong-nhung-don-vi-dau-tien-tai-mien-bac-dat-chung-nhan-chuan-chat-luong-quoc-te-rtac-trong-ho-tro-sinh-san/
 
-16:27:12	Warning: 	Moved Permanently for https://afhanoi.com/?p=20253
+16:27:12	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=20253
 
-16:27:12	Warning: 	File has moved from https://afhanoi.com/?p=20253 to https://afhanoi.com/tra-gop-lai-suat-0-chap-canh-uoc-mo-tren-hanh-trinh-kiem-tim-con-yeu/
+16:27:12	Warning: 	File has moved from https://dongynguyenhuutoan/?p=20253 to https://dongynguyenhuutoan/tra-gop-lai-suat-0-chap-canh-uoc-mo-tren-hanh-trinh-kiem-tim-con-yeu/
 
-16:27:14	Warning: 	Moved Permanently for https://afhanoi.com/?p=45644
+16:27:14	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=45644
 
-16:27:14	Warning: 	File has moved from https://afhanoi.com/?p=45644 to https://afhanoi.com/doan-cong-tac-benh-vien-cung-hiep-si-dai-thanh-gia-gioan-baotixita-le-duc-thinh-hanh-trinh-yeu-thuong-vun-dap-tinh-doan-ket-dan-toc/
+16:27:14	Warning: 	File has moved from https://dongynguyenhuutoan/?p=45644 to https://dongynguyenhuutoan/doan-cong-tac-benh-vien-cung-hiep-si-dai-thanh-gia-gioan-baotixita-le-duc-thinh-hanh-trinh-yeu-thuong-vun-dap-tinh-doan-ket-dan-toc/
 
-16:27:18	Warning: 	Moved Permanently for https://afhanoi.com/?p=38248
+16:27:18	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=38248
 
-16:27:18	Warning: 	File has moved from https://afhanoi.com/?p=38248 to https://afhanoi.com/goc-bao-chi/
+16:27:18	Warning: 	File has moved from https://dongynguyenhuutoan/?p=38248 to https://dongynguyenhuutoan/goc-bao-chi/
 
-16:27:18	Warning: 	Moved Permanently for https://afhanoi.com/?page_id=38250&preview=true
+16:27:18	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?page_id=38250&preview=true
 
-16:27:18	Warning: 	File has moved from https://afhanoi.com/?page_id=38250&preview=true to https://afhanoi.com/truyen-hinh/
+16:27:18	Warning: 	File has moved from https://dongynguyenhuutoan/?page_id=38250&preview=true to https://dongynguyenhuutoan/truyen-hinh/
 
-16:27:28	Error: 	"Not Found" (404) at link https://afhanoi.com/?page_id=38256&preview=true (from https://afhanoi.com/goc-bao-chi/)
+16:27:28	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/?page_id=38256&preview=true (from https://dongynguyenhuutoan/goc-bao-chi/)
 
-16:27:29	Warning: 	Moved Permanently for https://afhanoi.com/?p=37490
+16:27:29	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=37490
 
-16:27:29	Warning: 	File has moved from https://afhanoi.com/?p=37490 to https://afhanoi.com/dich-vu/ho-tro-sinh-san-iui-ivf/
+16:27:29	Warning: 	File has moved from https://dongynguyenhuutoan/?p=37490 to https://dongynguyenhuutoan/dich-vu/ho-tro-sinh-san-iui-ivf/
 
-16:27:34	Warning: 	Moved Permanently for https://afhanoi.com/?p=34887
+16:27:34	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=34887
 
-16:27:34	Warning: 	File has moved from https://afhanoi.com/?p=34887 to https://afhanoi.com/dich-vu/nam-khoa/
+16:27:34	Warning: 	File has moved from https://dongynguyenhuutoan/?p=34887 to https://dongynguyenhuutoan/dich-vu/nam-khoa/
 
-16:27:35	Warning: 	Moved Permanently for https://afhanoi.com/?p=37492
+16:27:35	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=37492
 
-16:27:35	Warning: 	File has moved from https://afhanoi.com/?p=37492 to https://afhanoi.com/dich-vu/trung-tam-y-hoc-gioi-tinh/
+16:27:35	Warning: 	File has moved from https://dongynguyenhuutoan/?p=37492 to https://dongynguyenhuutoan/dich-vu/trung-tam-y-hoc-gioi-tinh/
 
-16:27:36	Warning: 	Moved Permanently for https://afhanoi.com/?p=37495
+16:27:36	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=37495
 
-16:27:36	Warning: 	File has moved from https://afhanoi.com/?p=37495 to https://afhanoi.com/dich-vu/cham-soc-va-quan-ly-thai-ky/
+16:27:36	Warning: 	File has moved from https://dongynguyenhuutoan/?p=37495 to https://dongynguyenhuutoan/dich-vu/cham-soc-va-quan-ly-thai-ky/
 
-16:27:40	Warning: 	Moved Permanently for https://afhanoi.com/?p=696
+16:27:40	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=696
 
-16:27:40	Warning: 	File has moved from https://afhanoi.com/?p=696 to https://afhanoi.com/dich-vu/tru-lanh-tinh-trung-noan-phoi/
+16:27:40	Warning: 	File has moved from https://dongynguyenhuutoan/?p=696 to https://dongynguyenhuutoan/dich-vu/tru-lanh-tinh-trung-noan-phoi/
 
-16:27:40	Error: 	"Forbidden" (403) at link afhanoi.wecan-group.info/wp-content/uploads/2021/04/copyofdonglanhtrung1423187884816crop1423187895182-1.jpg (from https://afhanoi.com/dich-vu/tru-lanh-tinh-trung-noan-phoi/)
+16:27:40	Error: 	"Forbidden" (403) at link afhanoi.wecan-group.info/wp-content/uploads/2021/04/copyofdonglanhtrung1423187884816crop1423187895182-1.jpg (from https://dongynguyenhuutoan/dich-vu/tru-lanh-tinh-trung-noan-phoi/)
 
-16:27:42	Warning: 	Moved Permanently for https://afhanoi.com/?p=34886
+16:27:42	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=34886
 
-16:27:42	Warning: 	File has moved from https://afhanoi.com/?p=34886 to https://afhanoi.com/dich-vu/san-phu-khoa/
+16:27:42	Warning: 	File has moved from https://dongynguyenhuutoan/?p=34886 to https://dongynguyenhuutoan/dich-vu/san-phu-khoa/
 
-16:27:44	Warning: 	Moved Permanently for https://afhanoi.com/?p=37493
+16:27:44	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=37493
 
-16:27:44	Warning: 	File has moved from https://afhanoi.com/?p=37493 to https://afhanoi.com/dich-vu/suc-khoe-tien-hon-nhan/
+16:27:44	Warning: 	File has moved from https://dongynguyenhuutoan/?p=37493 to https://dongynguyenhuutoan/dich-vu/suc-khoe-tien-hon-nhan/
 
-16:27:45	Warning: 	Moved Permanently for https://afhanoi.com/?p=37494
+16:27:45	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=37494
 
-16:27:45	Warning: 	File has moved from https://afhanoi.com/?p=37494 to https://afhanoi.com/dich-vu/dich-vu-phong-spa/
+16:27:45	Warning: 	File has moved from https://dongynguyenhuutoan/?p=37494 to https://dongynguyenhuutoan/dich-vu/dich-vu-phong-spa/
 
-16:27:48	Warning: 	Moved Permanently for https://afhanoi.com/?p=44550
+16:27:48	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=44550
 
-16:27:48	Warning: 	File has moved from https://afhanoi.com/?p=44550 to https://afhanoi.com/goc-tri-an/cam-tuong/
+16:27:48	Warning: 	File has moved from https://dongynguyenhuutoan/?p=44550 to https://dongynguyenhuutoan/goc-tri-an/cam-tuong/
 
-16:27:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/goc-tri-an/39541/ (from https://afhanoi.com/goc-tri-an/cam-tuong/)
+16:27:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/goc-tri-an/39541/ (from https://dongynguyenhuutoan/goc-tri-an/cam-tuong/)
 
-16:28:36	Warning: 	Moved Permanently for https://afhanoi.com/?p=44547
+16:28:36	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=44547
 
-16:28:36	Warning: 	File has moved from https://afhanoi.com/?p=44547 to https://afhanoi.com/goc-tri-an/be-luong-dang-minh-11-01-2023/
+16:28:36	Warning: 	File has moved from https://dongynguyenhuutoan/?p=44547 to https://dongynguyenhuutoan/goc-tri-an/be-luong-dang-minh-11-01-2023/
 
-16:30:16	Warning: 	Moved Permanently for https://afhanoi.com/?p=44543
+16:30:16	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=44543
 
-16:30:16	Warning: 	File has moved from https://afhanoi.com/?p=44543 to https://afhanoi.com/goc-tri-an/be-truong-lam-oanh-21-07-2023/
+16:30:16	Warning: 	File has moved from https://dongynguyenhuutoan/?p=44543 to https://dongynguyenhuutoan/goc-tri-an/be-truong-lam-oanh-21-07-2023/
 
-16:30:30	Warning: 	Moved Permanently for https://afhanoi.com/?p=44345
+16:30:30	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=44345
 
-16:30:30	Warning: 	File has moved from https://afhanoi.com/?p=44345 to https://afhanoi.com/goc-tri-an/be-pham-tran-hai-long-13-11-2023/
+16:30:30	Warning: 	File has moved from https://dongynguyenhuutoan/?p=44345 to https://dongynguyenhuutoan/goc-tri-an/be-pham-tran-hai-long-13-11-2023/
 
-16:30:51	Warning: 	Moved Permanently for https://afhanoi.com/?p=44331
+16:30:51	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=44331
 
-16:30:51	Warning: 	File has moved from https://afhanoi.com/?p=44331 to https://afhanoi.com/goc-tri-an/be-ha-ngoc-minh-chau-19-8-2023/
+16:30:51	Warning: 	File has moved from https://dongynguyenhuutoan/?p=44331 to https://dongynguyenhuutoan/goc-tri-an/be-ha-ngoc-minh-chau-19-8-2023/
 
-16:30:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/goc-tri-an/be-hoang-nhat-anh-giai-nhat-cuoc-thi-viet-ivf-se-chia-2024/ (from https://afhanoi.com/goc-tri-an/be-ha-ngoc-minh-chau-19-8-2023/)
+16:30:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/goc-tri-an/be-hoang-nhat-anh-giai-nhat-cuoc-thi-viet-ivf-se-chia-2024/ (from https://dongynguyenhuutoan/goc-tri-an/be-ha-ngoc-minh-chau-19-8-2023/)
 
-16:31:05	Warning: 	Moved Permanently for https://afhanoi.com/?p=44338
+16:31:05	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=44338
 
-16:31:05	Warning: 	File has moved from https://afhanoi.com/?p=44338 to https://afhanoi.com/goc-tri-an/be-tran-hung-thanh-13-8-2023/
+16:31:05	Warning: 	File has moved from https://dongynguyenhuutoan/?p=44338 to https://dongynguyenhuutoan/goc-tri-an/be-tran-hung-thanh-13-8-2023/
 
-16:31:13	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-content/uploads/2024/10/TLV2024_LTK_Bien-Trung-bay-CTA-07.jpg (from https://afhanoi.com/goc-tri-an/be-tran-hung-thanh-13-8-2023/)
+16:31:13	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-content/uploads/2024/10/TLV2024_LTK_Bien-Trung-bay-CTA-07.jpg (from https://dongynguyenhuutoan/goc-tri-an/be-tran-hung-thanh-13-8-2023/)
 
-16:31:13	Warning: 	Moved Permanently for https://afhanoi.com/?p=46188
+16:31:13	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46188
 
-16:31:13	Warning: 	File has moved from https://afhanoi.com/?p=46188 to https://afhanoi.com/af-hanoi-trinh-bay-nghien-cuu-ve-ung-dung-cua-di-truyen-trong-xac-dinh-phoi-thu-tinh-bat-thuong-tai-hoi-nghi-di-truyen-va-he-gen-y-hoc-toan-quoc-2025/
+16:31:13	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46188 to https://dongynguyenhuutoan/af-hanoi-trinh-bay-nghien-cuu-ve-ung-dung-cua-di-truyen-trong-xac-dinh-phoi-thu-tinh-bat-thuong-tai-hoi-nghi-di-truyen-va-he-gen-y-hoc-toan-quoc-2025/
 
-16:31:17	Warning: 	Moved Permanently for https://afhanoi.com/?p=46149
+16:31:17	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46149
 
-16:31:17	Warning: 	File has moved from https://afhanoi.com/?p=46149 to https://afhanoi.com/thalassemia-nguyen-nhan-di-truyen-va-cach-chua-tri-hien-nay/
+16:31:17	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46149 to https://dongynguyenhuutoan/thalassemia-nguyen-nhan-di-truyen-va-cach-chua-tri-hien-nay/
 
-16:31:23	Warning: 	Moved Permanently for https://afhanoi.com/?p=46134
+16:31:23	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46134
 
-16:31:23	Warning: 	File has moved from https://afhanoi.com/?p=46134 to https://afhanoi.com/af-hanoi-vinh-du-bao-cao-tai-eshre-2025-hoi-nghi-hang-dau-the-gioi-ve-ho-tro-sinh-san-va-phoi-hoc/
+16:31:23	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46134 to https://dongynguyenhuutoan/af-hanoi-vinh-du-bao-cao-tai-eshre-2025-hoi-nghi-hang-dau-the-gioi-ve-ho-tro-sinh-san-va-phoi-hoc/
 
-16:31:28	Warning: 	Moved Permanently for https://afhanoi.com/?p=46121
+16:31:28	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46121
 
-16:31:28	Warning: 	File has moved from https://afhanoi.com/?p=46121 to https://afhanoi.com/mang-hy-vong-den-cho-cac-cap-vo-chong-hiem-muon/
+16:31:28	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46121 to https://dongynguyenhuutoan/mang-hy-vong-den-cho-cac-cap-vo-chong-hiem-muon/
 
-16:31:37	Warning: 	Moved Permanently for https://afhanoi.com/?p=46083
+16:31:37	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46083
 
-16:31:37	Warning: 	File has moved from https://afhanoi.com/?p=46083 to https://afhanoi.com/le-cong-bo-va-trao-quyet-dinh-10-ca-thu-tinh-trong-ong-nghiem-mien-phi-100-va-cac-chuong-trinh-xet-duyet-mien-phi-cua-tuan-le-vang-2025/
+16:31:37	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46083 to https://dongynguyenhuutoan/le-cong-bo-va-trao-quyet-dinh-10-ca-thu-tinh-trong-ong-nghiem-mien-phi-100-va-cac-chuong-trinh-xet-duyet-mien-phi-cua-tuan-le-vang-2025/
 
-16:31:39	Warning: 	Moved Permanently for https://afhanoi.com/?p=46078
+16:31:39	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46078
 
-16:31:39	Warning: 	File has moved from https://afhanoi.com/?p=46078 to https://afhanoi.com/tuan-le-vang-2025-cong-bo-danh-sach-22-ca-mien-phi-xet-nghiem-phoi-benh-ly-don-gen/
+16:31:39	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46078 to https://dongynguyenhuutoan/tuan-le-vang-2025-cong-bo-danh-sach-22-ca-mien-phi-xet-nghiem-phoi-benh-ly-don-gen/
 
-16:31:39	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fafhanoi.com%2Ftuan-le-vang-2025-cong-bo-danh-sach-22-ca-mien-phi-xet-nghiem-phoi-benh-ly-don-gen%2F (from https://afhanoi.com/tuan-le-vang-2025-cong-bo-danh-sach-22-ca-mien-phi-xet-nghiem-phoi-benh-ly-don-gen/)
+16:31:39	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdongynguyenhuutoan%2Ftuan-le-vang-2025-cong-bo-danh-sach-22-ca-mien-phi-xet-nghiem-phoi-benh-ly-don-gen%2F (from https://dongynguyenhuutoan/tuan-le-vang-2025-cong-bo-danh-sach-22-ca-mien-phi-xet-nghiem-phoi-benh-ly-don-gen/)
 
-16:31:41	Warning: 	Moved Permanently for https://afhanoi.com/?p=46074
+16:31:41	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46074
 
-16:31:41	Warning: 	File has moved from https://afhanoi.com/?p=46074 to https://afhanoi.com/tuan-le-vang-2025-cong-bo-danh-sach-10-ca-mien-phi-phau-thuat-vi-phau-tinh-hoan-tim-tinh-trung-micro-tese/
+16:31:41	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46074 to https://dongynguyenhuutoan/tuan-le-vang-2025-cong-bo-danh-sach-10-ca-mien-phi-phau-thuat-vi-phau-tinh-hoan-tim-tinh-trung-micro-tese/
 
-16:31:47	Warning: 	Moved Permanently for https://afhanoi.com/?p=46067
+16:31:47	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46067
 
-16:31:47	Warning: 	File has moved from https://afhanoi.com/?p=46067 to https://afhanoi.com/chuc-mung-ngay-gia-dinh-viet-nam-28-06-2025/
+16:31:47	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46067 to https://dongynguyenhuutoan/chuc-mung-ngay-gia-dinh-viet-nam-28-06-2025/
 
-16:31:48	Warning: 	Moved Permanently for https://afhanoi.com/?p=45490
+16:31:48	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=45490
 
-16:31:48	Warning: 	File has moved from https://afhanoi.com/?p=45490 to https://afhanoi.com/tuan-le-vang-uom-mam-hanh-phuc-hanh-trinh-noi-dai-uoc-mo-ve-nhung-tieng-cuoi-con-tre-2025/
+16:31:48	Warning: 	File has moved from https://dongynguyenhuutoan/?p=45490 to https://dongynguyenhuutoan/tuan-le-vang-uom-mam-hanh-phuc-hanh-trinh-noi-dai-uoc-mo-ve-nhung-tieng-cuoi-con-tre-2025/
 
-16:31:48	Warning: 	Moved Permanently for https://afhanoi.com/?p=46153
+16:31:48	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46153
 
-16:31:48	Warning: 	File has moved from https://afhanoi.com/?p=46153 to https://afhanoi.com/thu-vien-video/podcast-hy-vong-nay-mam-so-9-chu-de-bo-me-da-tim-duoc-mon-qua-vo-gia-tai-af-hanoi/
+16:31:48	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46153 to https://dongynguyenhuutoan/thu-vien-video/podcast-hy-vong-nay-mam-so-9-chu-de-bo-me-da-tim-duoc-mon-qua-vo-gia-tai-af-hanoi/
 
-16:31:53	Warning: 	Moved Permanently for https://afhanoi.com/?p=46148
+16:31:53	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46148
 
-16:31:53	Warning: 	File has moved from https://afhanoi.com/?p=46148 to https://afhanoi.com/thu-vien-anh/album-anh-le-cong-bo-va-trao-quyet-dinh-cac-chuong-trinh-xet-duyet-mien-phi-cua-tuan-le-vang-2025/
+16:31:53	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46148 to https://dongynguyenhuutoan/thu-vien-anh/album-anh-le-cong-bo-va-trao-quyet-dinh-cac-chuong-trinh-xet-duyet-mien-phi-cua-tuan-le-vang-2025/
 
-16:32:09	Warning: 	Moved Permanently for https://afhanoi.com/?p=46156
+16:32:09	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46156
 
-16:32:09	Warning: 	File has moved from https://afhanoi.com/?p=46156 to https://afhanoi.com/thu-vien-video/highlight-le-cong-bo-va-trao-quyet-dinh-tuan-le-vang-2025/
+16:32:09	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46156 to https://dongynguyenhuutoan/thu-vien-video/highlight-le-cong-bo-va-trao-quyet-dinh-tuan-le-vang-2025/
 
-16:32:10	Warning: 	Moved Permanently for https://afhanoi.com/?p=46161
+16:32:10	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46161
 
-16:32:10	Warning: 	File has moved from https://afhanoi.com/?p=46161 to https://afhanoi.com/thu-vien-video/truyen-hinh-qpvn-chap-canh-hy-vong-lam-cha-me-cho-nhung-nguoi-linh/
+16:32:10	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46161 to https://dongynguyenhuutoan/thu-vien-video/truyen-hinh-qpvn-chap-canh-hy-vong-lam-cha-me-cho-nhung-nguoi-linh/
 
-16:32:14	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/wp/v2/thu-vien-video/46159 (from https://afhanoi.com/thu-vien-video/truyen-hinh-qpvn-hanh-trinh-gieo-mam-xanh-hy-vong-cho-cac-gia-dinh-hiem-muon/)
+16:32:14	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/wp/v2/thu-vien-video/46159 (from https://dongynguyenhuutoan/thu-vien-video/truyen-hinh-qpvn-hanh-trinh-gieo-mam-xanh-hy-vong-cho-cac-gia-dinh-hiem-muon/)
 
-16:32:14	Warning: 	Moved Permanently for https://afhanoi.com/?p=46159
+16:32:14	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46159
 
-16:32:14	Warning: 	File has moved from https://afhanoi.com/?p=46159 to https://afhanoi.com/thu-vien-video/truyen-hinh-qpvn-hanh-trinh-gieo-mam-xanh-hy-vong-cho-cac-gia-dinh-hiem-muon/
+16:32:14	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46159 to https://dongynguyenhuutoan/thu-vien-video/truyen-hinh-qpvn-hanh-trinh-gieo-mam-xanh-hy-vong-cho-cac-gia-dinh-hiem-muon/
 
-16:32:16	Warning: 	Moved Permanently for https://afhanoi.com/?p=46034
+16:32:16	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46034
 
-16:32:16	Warning: 	File has moved from https://afhanoi.com/?p=46034 to https://afhanoi.com/thu-vien-anh/album-anh-lop-hoc-tien-san-so-4-21-06-2025-hanh-trinh-lam-me-hanh-phuc/
+16:32:16	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46034 to https://dongynguyenhuutoan/thu-vien-anh/album-anh-lop-hoc-tien-san-so-4-21-06-2025-hanh-trinh-lam-me-hanh-phuc/
 
-16:32:17	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/tag/lop-hoc-tien-san/ (from https://afhanoi.com/thu-vien-anh/album-anh-lop-hoc-tien-san-so-4-21-06-2025-hanh-trinh-lam-me-hanh-phuc/)
+16:32:17	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/tag/lop-hoc-tien-san/ (from https://dongynguyenhuutoan/thu-vien-anh/album-anh-lop-hoc-tien-san-so-4-21-06-2025-hanh-trinh-lam-me-hanh-phuc/)
 
-16:32:17	Warning: 	Moved Permanently for https://afhanoi.com/?p=46163
+16:32:17	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46163
 
-16:32:17	Warning: 	File has moved from https://afhanoi.com/?p=46163 to https://afhanoi.com/thu-vien-video/podcast-hy-vong-nay-mam-so-8-chu-de-cam-on-nguoi-bac-si-giup-chung-toi-don-con-yeu/
+16:32:17	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46163 to https://dongynguyenhuutoan/thu-vien-video/podcast-hy-vong-nay-mam-so-8-chu-de-cam-on-nguoi-bac-si-giup-chung-toi-don-con-yeu/
 
-16:32:22	Warning: 	Moved Permanently for https://afhanoi.com/?p=46167
+16:32:22	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46167
 
-16:32:22	Warning: 	File has moved from https://afhanoi.com/?p=46167 to https://afhanoi.com/thu-vien-video/af-hanoi-news-ban-tin-tong-hop-nhung-hoat-dong-noi-bat-trong-thang-05-2025/
+16:32:22	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46167 to https://dongynguyenhuutoan/thu-vien-video/af-hanoi-news-ban-tin-tong-hop-nhung-hoat-dong-noi-bat-trong-thang-05-2025/
 
-16:32:26	Warning: 	Moved Permanently for https://afhanoi.com/?p=46165
+16:32:26	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46165
 
-16:32:26	Warning: 	File has moved from https://afhanoi.com/?p=46165 to https://afhanoi.com/thu-vien-video/sinh-nhat-chuc-mung-sinh-nhat-can-bo-nhan-vien-thang-06-2025/
+16:32:26	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46165 to https://dongynguyenhuutoan/thu-vien-video/sinh-nhat-chuc-mung-sinh-nhat-can-bo-nhan-vien-thang-06-2025/
 
-16:32:27	Warning: 	Moved Permanently for https://afhanoi.com/?p=46169
+16:32:27	Warning: 	Moved Permanently for https://dongynguyenhuutoan/?p=46169
 
-16:32:27	Warning: 	File has moved from https://afhanoi.com/?p=46169 to https://afhanoi.com/thu-vien-video/highlight-le-tong-ket-tuan-le-vang-2025-va-le-ky-niem-13-nam-thanh-lap-khoa-ho-tro-sinh-san/
+16:32:27	Warning: 	File has moved from https://dongynguyenhuutoan/?p=46169 to https://dongynguyenhuutoan/thu-vien-video/highlight-le-tong-ket-tuan-le-vang-2025-va-le-ky-niem-13-nam-thanh-lap-khoa-ho-tro-sinh-san/
 
 16:32:44	Error: 	"Not Found" (404) at link https://policies.google.com/gci_91f30755d6a6b787dcc2a4062e6e9824.js (from https://policies.google.com/privacy)
 
@@ -520,71 +520,71 @@ https://luongynguyenhuutoan.com/https://luongynguyenhuutoan.com/
 
 16:35:05	Error: 	"Not Found" (404) at link https://policies.google.com/https: (from https://policies.google.com/privacy)
 
-16:36:20	Error: 	"Not Found" (404) at link https://afhanoi.com/Trident/ (from https://afhanoi.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.0.86)
+16:36:20	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/Trident/ (from https://dongynguyenhuutoan/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.0.86)
 
-16:36:20	Warning: 	Moved Permanently for https://afhanoi.com/chrome-extension://
+16:36:20	Warning: 	Moved Permanently for https://dongynguyenhuutoan/chrome-extension://
 
-16:36:20	Warning: 	Redirected link is identical because of 'URL Hack' option: https://afhanoi.com/chrome-extension:// and https://afhanoi.com/chrome-extension:/
+16:36:20	Warning: 	Redirected link is identical because of 'URL Hack' option: https://dongynguyenhuutoan/chrome-extension:// and https://dongynguyenhuutoan/chrome-extension:/
 
-16:36:20	Warning: 	File has moved from https://afhanoi.com/chrome-extension:// to https://afhanoi.com/chrome-extension:/
+16:36:20	Warning: 	File has moved from https://dongynguyenhuutoan/chrome-extension:// to https://dongynguyenhuutoan/chrome-extension:/
 
-16:36:20	Error: 	"Not Found" (404) at link https://afhanoi.com/location.href (from https://afhanoi.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.0.86)
+16:36:20	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/location.href (from https://dongynguyenhuutoan/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.0.86)
 
-16:36:20	Error: 	"Not Found" (404) at link https://afhanoi.com/urlString, base (from https://afhanoi.com/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0)
+16:36:20	Error: 	"Not Found" (404) at link https://dongynguyenhuutoan/urlString, base (from https://dongynguyenhuutoan/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0)
 
-16:37:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/wp/v2/categories/110 (from https://afhanoi.com/chuyen-muc/tin-tuc/chi-dao-tuyen/)
+16:37:05	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/wp/v2/categories/110 (from https://dongynguyenhuutoan/chuyen-muc/tin-tuc/chi-dao-tuyen/)
 
 16:38:34	Error: 	"Not Found" (404) at link https://www.facebook.com/plugins/yGMMzC (from https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fafhanoi%2F&tabs=timeline&width=230&height=100&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=533725624885839)
 
 16:38:34	Error: 	"Not Found" (404) at link https://www.facebook.com/plugins/8BKk3j (from https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fafhanoi%2F&tabs=timeline&width=230&height=100&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=533725624885839)
 
-16:38:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/tag/quan-nhan-hiem-muon/feed/ (from https://afhanoi.com/tag/quan-nhan-hiem-muon/)
+16:38:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/tag/quan-nhan-hiem-muon/feed/ (from https://dongynguyenhuutoan/tag/quan-nhan-hiem-muon/)
 
-16:38:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://afhanoi.com/wp-json/wp/v2/tags/476 (from https://afhanoi.com/tag/quan-nhan-hiem-muon/)
+16:38:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://dongynguyenhuutoan/wp-json/wp/v2/tags/476 (from https://dongynguyenhuutoan/tag/quan-nhan-hiem-muon/)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Bold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Bold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-ExtraBold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-ExtraBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Light.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Light.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Medium.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Medium.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-SemiBold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-SemiBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Regular.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/wp-content/stylechung/fonts/OpenSans/OpenSans-Regular.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Bold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Bold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-ExtraBold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-ExtraBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Light.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Light.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Medium.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-Medium.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-SemiBold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/Roboto-SemiBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Regular.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Regular.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Bold.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Bold.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-BoldItalic.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-BoldItalic.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Italic.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Italic.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Light.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-Light.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-LightItalic.ttf (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung/fonts/Roboto/RobotoCondensed-LightItalic.ttf (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/stylechung/<?=%20$url%20? (from https://eng.afhanoi.com/wp-content/stylechung/stylechung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/stylechung/<?=%20$url%20? (from https://eng.dongynguyenhuutoan/wp-content/stylechung/stylechung.css)
 
-16:39:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/fonts/OpenSans/OpenSans-ExtraBold.ttf (from https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
+16:39:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/fonts/OpenSans/OpenSans-ExtraBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/fonts/Roboto/Roboto-ExtraBold.ttf (from https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/fonts/Roboto/Roboto-ExtraBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/fonts/Roboto/Roboto-SemiBold.ttf (from https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/fonts/Roboto/Roboto-SemiBold.ttf (from https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/styles.css)
 
-16:39:12	Error: 	"Not Found" (404) at link https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/<?=%20$url%20? (from https://eng.afhanoi.com/wp-content/themes/af_ha_noi/dist/styles/css/chung.css)
+16:39:12	Error: 	"Not Found" (404) at link https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/<?=%20$url%20? (from https://eng.dongynguyenhuutoan/wp-content/themes/af_ha_noi/dist/styles/css/chung.css)
 
 16:39:53	Warning: 	Found for https://www.facebook.com/CriOS/
 

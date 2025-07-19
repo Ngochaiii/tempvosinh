@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://dongynguyenhuutoan</provider_url><author_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</author_name><author_url>https://dongynguyenhuutoan</author_url><title>HIV</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="VYa84ckezu"&gt;&lt;a href="https://luongynguyenhuutoan.com/hiv/"&gt;HIV&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://luongynguyenhuutoan.com/hiv/embed/#?secret=VYa84ckezu" width="600" height="338" title="&#x201C;HIV&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="VYa84ckezu" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><description>HIV/AIDS &#x111;&#xE3; &#x111;&#x1B0;&#x1EE3;c th&#x1EBF; gi&#x1EDB;i ghi nh&#x1EAD;n kho&#x1EA3;ng 30 n&#x103;m g&#x1EA7;n &#x111;&#xE2;y, t&#x1EEB; m&#x1ED9;t c&#x103;n b&#x1EC7;nh kh&#xF4;ng &#x111;&#x1B0;&#x1EE3;c bi&#x1EBF;t &#x111;&#x1EBF;n nay &#x111;&#xE3; tr&#x1EDF; th&#xE0;nh n&#x1ED7;i s&#x1EE3; h&#xE3;i, &#xE1;m &#x1EA3;nh tr&#xEA;n to&#xE0;n c&#x1EA7;u v&#x1EDB;i h&#x1A1;n 30 tri&#x1EC7;u b&#x1EC7;nh nh&#xE2;n. C&#xF9;ng t&#xEC;m hi&#x1EC3;u v&#x1EC1; virus HIV qua nh&#x1EEF;ng &#x111;i&#x1EC1;u d&#x1B0;&#x1EDB;i &#x111;&#xE2;y: Ngu&#x1ED3;n g&#x1ED1;c c&#x1EE7;a lo&#x1EA1;i virus HIV [&hellip;]</description></oembed>

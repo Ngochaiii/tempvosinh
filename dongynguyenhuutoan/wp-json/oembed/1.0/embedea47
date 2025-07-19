@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://dongynguyenhuutoan</provider_url><author_name>Nguy&#x1EC5;n Trung H&#x1EA3;i</author_name><author_url>https://luongynguyenhuutoan.com/author/haint/</author_url><title>[Gi&#x1EDB;i Thi&#x1EC7;u B&#xE1;o C&#xE1;o Vi&#xEA;n] H&#x1ED9;i Th&#x1EA3;o Khoa H&#x1ECD;c L&#x1EA7;n 5 - B&#x1EC7;nh Vi&#x1EC7;n Chuy&#xEA;n Khoa Nam H&#x1ECD;c V&#xE0; Hi&#x1EBF;m Mu&#x1ED9;n H&#xE0; N&#x1ED9;i - PGS. TS Nguy&#x1EC5;n Quang</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="rnsu84VTws"&gt;&lt;a href="https://luongynguyenhuutoan.com/gioi-thieu-bao-cao-vien-hoi-thao-khoa-hoc-lan-5-benh-vien-chuyen-khoa-nam-hoc-va-hiem-muon-ha-noi-pgs-ts-nguyen-quang/"&gt;[Gi&#x1EDB;i Thi&#x1EC7;u B&#xE1;o C&#xE1;o Vi&#xEA;n] H&#x1ED9;i Th&#x1EA3;o Khoa H&#x1ECD;c L&#x1EA7;n 5 &#x2013; B&#x1EC7;nh Vi&#x1EC7;n Chuy&#xEA;n Khoa Nam H&#x1ECD;c V&#xE0; Hi&#x1EBF;m Mu&#x1ED9;n H&#xE0; N&#x1ED9;i &#x2013; PGS. TS Nguy&#x1EC5;n Quang&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://luongynguyenhuutoan.com/gioi-thieu-bao-cao-vien-hoi-thao-khoa-hoc-lan-5-benh-vien-chuyen-khoa-nam-hoc-va-hiem-muon-ha-noi-pgs-ts-nguyen-quang/embed/#?secret=rnsu84VTws" width="600" height="338" title="&#x201C;[Gi&#x1EDB;i Thi&#x1EC7;u B&#xE1;o C&#xE1;o Vi&#xEA;n] H&#x1ED9;i Th&#x1EA3;o Khoa H&#x1ECD;c L&#x1EA7;n 5 &#x2013; B&#x1EC7;nh Vi&#x1EC7;n Chuy&#xEA;n Khoa Nam H&#x1ECD;c V&#xE0; Hi&#x1EBF;m Mu&#x1ED9;n H&#xE0; N&#x1ED9;i &#x2013; PGS. TS Nguy&#x1EC5;n Quang&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="rnsu84VTws" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><thumbnail_url>https://luongynguyenhuutoan.com/wp-content/uploads/2024/08/NCKH_Hoithao5_Post-BCV-01.jpg</thumbnail_url><thumbnail_width>1080</thumbnail_width><thumbnail_height>1080</thumbnail_height><description>PGS. TS NGUY&#x1EC4;N QUANG Ch&#x1EE7; t&#x1ECB;ch H&#x1ED9;i Y h&#x1ECD;c Gi&#x1EDB;i t&#xED;nh Vi&#x1EC7;t Nam &#x2013; Gi&#xE1;m &#x111;&#x1ED1;c Trung t&#xE2;m Nam h&#x1ECD;c, B&#x1EC7;nh vi&#x1EC7;n H&#x1EEF;u ngh&#x1ECB; Vi&#x1EC7;t &#x110;&#x1EE9;c. &nbsp; B&#xE1;o c&#xE1;o: &#x201C;V&#xF4; sinh nam: Nh&#x1EEF;ng th&#xE1;ch th&#x1EE9;c hi&#x1EC7;n t&#x1EA1;i v&#xE0; h&#x1B0;&#x1EDB;ng &#x111;i trong t&#x1B0;&#x1A1;ng lai&#x201D; Th&#x1EDD;i gian: Ch&#x1EE7; nh&#x1EAD;t 22.09.2024 | 8:00 &#x2013; 13:30 &#x110;&#x1ECB;a &#x111;i&#x1EC3;m: H&#x1ED9;i [&hellip;]</description></oembed>

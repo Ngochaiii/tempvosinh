@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://dongynguyenhuutoan</provider_url><author_name>L&#xEA; Vi&#x1EC7;t D&#x169;ng</author_name><author_url>https://luongynguyenhuutoan.com/author/dunglv/</author_url><title>Em &#x111;&#xE3; k&#x1EBF;t h&#xF4;n &#x111;&#x1B0;&#x1EE3;c 3 n&#x103;m nh&#x1B0;ng ch&#x1B0;a c&#xF3; m&#x1EE5;n con n&#xE0;o, kh&#xE1;m nhi&#x1EC1;u n&#x1A1;i b&#xE1;c s&#x129; k&#x1EBF;t lu&#x1EAD;n: v&#x1EE3; b&#xEC;nh th&#x1B0;&#x1EDD;ng, ch&#x1ED3;ng kh&#xF4;ng c&#xF3; tinh tr&#xF9;ng. Xin h&#x1ECF;i tr&#x1B0;&#x1EDD;ng h&#x1EE3;p c&#x1EE7;a em l&#xE0; b&#x1EC7;nh g&#xEC;? C&#xF3; th&#x1EC3; sinh con &#x111;&#x1B0;&#x1EE3;c kh&#xF4;ng?</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="WqM6p8I1tj"&gt;&lt;a href="https://luongynguyenhuutoan.com/hoi-dap/em-da-ket-hon-duoc-3-nam-nhung-chua-co-mun-con-nao-kham-nhieu-noi-bac-si-ket-luan-vo-binh-thuong-chong-khong-co-tinh-trung-xin-hoi-truong-hop-cua-em-la-benh-gi-co-sinh-con-duoc-khong/"&gt;Em &#x111;&#xE3; k&#x1EBF;t h&#xF4;n &#x111;&#x1B0;&#x1EE3;c 3 n&#x103;m nh&#x1B0;ng ch&#x1B0;a c&#xF3; m&#x1EE5;n con n&#xE0;o, kh&#xE1;m nhi&#x1EC1;u n&#x1A1;i b&#xE1;c s&#x129; k&#x1EBF;t lu&#x1EAD;n: v&#x1EE3; b&#xEC;nh th&#x1B0;&#x1EDD;ng, ch&#x1ED3;ng kh&#xF4;ng c&#xF3; tinh tr&#xF9;ng. Xin h&#x1ECF;i tr&#x1B0;&#x1EDD;ng h&#x1EE3;p c&#x1EE7;a em l&#xE0; b&#x1EC7;nh g&#xEC;? C&#xF3; th&#x1EC3; sinh con &#x111;&#x1B0;&#x1EE3;c kh&#xF4;ng?&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://luongynguyenhuutoan.com/hoi-dap/em-da-ket-hon-duoc-3-nam-nhung-chua-co-mun-con-nao-kham-nhieu-noi-bac-si-ket-luan-vo-binh-thuong-chong-khong-co-tinh-trung-xin-hoi-truong-hop-cua-em-la-benh-gi-co-sinh-con-duoc-khong/embed/#?secret=WqM6p8I1tj" width="600" height="338" title="&#x201C;Em &#x111;&#xE3; k&#x1EBF;t h&#xF4;n &#x111;&#x1B0;&#x1EE3;c 3 n&#x103;m nh&#x1B0;ng ch&#x1B0;a c&#xF3; m&#x1EE5;n con n&#xE0;o, kh&#xE1;m nhi&#x1EC1;u n&#x1A1;i b&#xE1;c s&#x129; k&#x1EBF;t lu&#x1EAD;n: v&#x1EE3; b&#xEC;nh th&#x1B0;&#x1EDD;ng, ch&#x1ED3;ng kh&#xF4;ng c&#xF3; tinh tr&#xF9;ng. Xin h&#x1ECF;i tr&#x1B0;&#x1EDD;ng h&#x1EE3;p c&#x1EE7;a em l&#xE0; b&#x1EC7;nh g&#xEC;? C&#xF3; th&#x1EC3; sinh con &#x111;&#x1B0;&#x1EE3;c kh&#xF4;ng?&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="WqM6p8I1tj" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><description>Ch&#xE0;o em, V&#xF4; sinh nam chi&#x1EBF;m kho&#x1EA3;ng 40% tr&#x1B0;&#x1EDD;ng h&#x1EE3;p v&#xF4; sinh hi&#x1EBF;m mu&#x1ED9;n, trong &#x111;&#xF3; b&#x1EA5;t th&#x1B0;&#x1EDD;ng v&#x1EC1; tinh tr&#xF9;ng l&#xE0; nguy&#xEA;n nh&#xE2;n ph&#x1ED5; bi&#x1EBF;n nh&#x1EA5;t. C&#x1EE5; th&#x1EC3; c&#xE1;c tr&#x1B0;&#x1EDD;ng h&#x1EE3;p b&#x1EA5;t th&#x1B0;&#x1EDD;ng v&#x1EC1; tinh d&#x1ECB;ch &#x111;&#x1ED3; c&#xF3; th&#x1EC3; g&#x1EB7;p nh&#x1B0; v&#xF4; tinh, thi&#x1EC3;u tinh, tinh tr&#xF9;ng d&#x1ECB; d&#x1EA1;ng,&#x2026; trong &#x111;&#xF3; kh&#xF4;ng c&#xF3; tinh [&hellip;]</description></oembed>

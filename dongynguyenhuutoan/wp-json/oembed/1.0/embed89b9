@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<oembed><version>1.0</version><provider_name>B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</provider_name><provider_url>https://dongynguyenhuutoan</provider_url><author_name>Nguy&#x1EC5;n Trung H&#x1EA3;i</author_name><author_url>https://luongynguyenhuutoan.com/author/haint/</author_url><title>Gi&#x1EDB;i thi&#x1EC7;u b&#xE1;o c&#xE1;o vi&#xEA;n &#x2013; H&#x1ED9;i th&#x1EA3;o khoa h&#x1ECD;c &#x201C;C&#x1EAD;p nh&#x1EAD;t ch&#x103;m s&#xF3;c s&#x1EE9;c kh&#x1ECF;e t&#xEC;nh d&#x1EE5;c nam, n&#x1EEF;&#x201D;: B&#xE1;c s&#x129; Phan Th&#x1ECB; B&#xED;ch Thu&#x1EAD;n - Trung t&#xE2;m Y h&#x1ECD;c Gi&#x1EDB;i t&#xED;nh - B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i</title><type>rich</type><width>600</width><height>338</height><html>&lt;blockquote class="wp-embedded-content" data-secret="z1tmbqcrSg"&gt;&lt;a href="https://luongynguyenhuutoan.com/gioi-thieu-bao-cao-vien-hoi-thao-khoa-hoc-cap-nhat-cham-soc-suc-khoe-tinh-duc-nam-nu-bac-si-phan-thi-bich-thuan-trung-tam-y-hoc-gioi-tinh-benh-vien-nam-hoc-va-hiem-mu/"&gt;Gi&#x1EDB;i thi&#x1EC7;u b&#xE1;o c&#xE1;o vi&#xEA;n &#x2013; H&#x1ED9;i th&#x1EA3;o khoa h&#x1ECD;c &#x201C;C&#x1EAD;p nh&#x1EAD;t ch&#x103;m s&#xF3;c s&#x1EE9;c kh&#x1ECF;e t&#xEC;nh d&#x1EE5;c nam, n&#x1EEF;&#x201D;: B&#xE1;c s&#x129; Phan Th&#x1ECB; B&#xED;ch Thu&#x1EAD;n &#x2013; Trung t&#xE2;m Y h&#x1ECD;c Gi&#x1EDB;i t&#xED;nh &#x2013; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i&lt;/a&gt;&lt;/blockquote&gt;&lt;iframe sandbox="allow-scripts" security="restricted" src="https://luongynguyenhuutoan.com/gioi-thieu-bao-cao-vien-hoi-thao-khoa-hoc-cap-nhat-cham-soc-suc-khoe-tinh-duc-nam-nu-bac-si-phan-thi-bich-thuan-trung-tam-y-hoc-gioi-tinh-benh-vien-nam-hoc-va-hiem-mu/embed/#?secret=z1tmbqcrSg" width="600" height="338" title="&#x201C;Gi&#x1EDB;i thi&#x1EC7;u b&#xE1;o c&#xE1;o vi&#xEA;n &#x2013; H&#x1ED9;i th&#x1EA3;o khoa h&#x1ECD;c &#x201C;C&#x1EAD;p nh&#x1EAD;t ch&#x103;m s&#xF3;c s&#x1EE9;c kh&#x1ECF;e t&#xEC;nh d&#x1EE5;c nam, n&#x1EEF;&#x201D;: B&#xE1;c s&#x129; Phan Th&#x1ECB; B&#xED;ch Thu&#x1EAD;n &#x2013; Trung t&#xE2;m Y h&#x1ECD;c Gi&#x1EDB;i t&#xED;nh &#x2013; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i&#x201D; &#x2014; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i" data-secret="z1tmbqcrSg" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="wp-embedded-content"&gt;&lt;/iframe&gt;&lt;script&gt;
+/**
+ * WordPress inline HTML embed
+ *
+ * @since 4.4.0
+ * @output wp-includes/js/wp-embed.js
+ *
+ * Single line comments should not be used since they will break
+ * the script when inlined in get_post_embed_html(), specifically
+ * when the comments are not stripped out due to SCRIPT_DEBUG
+ * being turned on.
+ */
+(function ( window, document ) {
+	'use strict';
+
+	/* Abort for ancient browsers. */
+	if ( ! document.querySelector || ! window.addEventListener || typeof URL === 'undefined' ) {
+		return;
+	}
+
+	/** @namespace wp */
+	window.wp = window.wp || {};
+
+	/* Abort if script was already executed. */
+	if ( !! window.wp.receiveEmbedMessage ) {
+		return;
+	}
+
+	/**
+	 * Receive embed message.
+	 *
+	 * @param {MessageEvent} e
+	 */
+	window.wp.receiveEmbedMessage = function( e ) {
+		var data = e.data;
+
+		/* Verify shape of message. */
+		if (
+			! ( data || data.secret || data.message || data.value ) ||
+			/[^a-zA-Z0-9]/.test( data.secret )
+		) {
+			return;
+		}
+
+		var iframes = document.querySelectorAll( 'iframe[data-secret="' + data.secret + '"]' ),
+			blockquotes = document.querySelectorAll( 'blockquote[data-secret="' + data.secret + '"]' ),
+			allowedProtocols = new RegExp( '^https?:$', 'i' ),
+			i, source, height, sourceURL, targetURL;
+
+		for ( i = 0; i &lt; blockquotes.length; i++ ) {
+			blockquotes[ i ].style.display = 'none';
+		}
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			source = iframes[ i ];
+
+			if ( e.source !== source.contentWindow ) {
+				continue;
+			}
+
+			source.removeAttribute( 'style' );
+
+			if ( 'height' === data.message ) {
+				/* Resize the iframe on request. */
+				height = parseInt( data.value, 10 );
+				if ( height &gt; 1000 ) {
+					height = 1000;
+				} else if ( ~~height &lt; 200 ) {
+					height = 200;
+				}
+
+				source.height = height;
+			} else if ( 'link' === data.message ) {
+				/* Link to a specific URL on request. */
+				sourceURL = new URL( source.getAttribute( 'src' ) );
+				targetURL = new URL( data.value );
+
+				if (
+					allowedProtocols.test( targetURL.protocol ) &amp;&amp;
+					targetURL.host === sourceURL.host &amp;&amp;
+					document.activeElement === source
+				) {
+					window.top.location.href = data.value;
+				}
+			}
+		}
+	};
+
+	function onLoad() {
+		var iframes = document.querySelectorAll( 'iframe.wp-embedded-content' ),
+			i, source, secret;
+
+		for ( i = 0; i &lt; iframes.length; i++ ) {
+			/** @var {IframeElement} */
+			source = iframes[ i ];
+
+			secret = source.getAttribute( 'data-secret' );
+			if ( ! secret ) {
+				/* Add secret to iframe */
+				secret = Math.random().toString( 36 ).substring( 2, 12 );
+				source.src += '#?secret=' + secret;
+				source.setAttribute( 'data-secret', secret );
+			}
+
+			/*
+			 * Let post embed window know that the parent is ready for receiving the height message, in case the iframe
+			 * loaded before wp-embed.js was loaded. When the ready message is received by the post embed window, the
+			 * window will then (re-)send the height message right away.
+			 */
+			source.contentWindow.postMessage( {
+				message: 'ready',
+				secret: secret
+			}, '*' );
+		}
+	}
+
+	window.addEventListener( 'message', window.wp.receiveEmbedMessage, false );
+	document.addEventListener( 'DOMContentLoaded', onLoad, false );
+})( window, document );
+&lt;/script&gt;
+</html><thumbnail_url>https://luongynguyenhuutoan.com/wp-content/uploads/2023/06/Bs-Phan-Thi-Bich-Thuan-thumb.jpg</thumbnail_url><thumbnail_width>1024</thumbnail_width><thumbnail_height>551</thumbnail_height><description>B&#xE1;o c&#xE1;o vi&#xEA;n: B&#xE1;c s&#x129; Phan Th&#x1ECB; B&#xED;ch Thu&#x1EAD;n &#x2013; Trung t&#xE2;m Y h&#x1ECD;c Gi&#x1EDB;i t&#xED;nh &#x2013; B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i Ch&#x1EE7; &#x111;&#x1EC1;: Th&#x1EF1;c tr&#x1EA1;ng r&#x1ED1;i lo&#x1EA1;n t&#xEC;nh d&#x1EE5;c &#x1EDF; ph&#x1EE5; n&#x1EEF; hi&#x1EBF;m mu&#x1ED9;n &#x111;&#x1EBF;n th&#x103;m kh&#xE1;m t&#x1EA1;i B&#x1EC7;nh vi&#x1EC7;n Nam h&#x1ECD;c v&#xE0; Hi&#x1EBF;m mu&#x1ED9;n H&#xE0; N&#x1ED9;i Th&#x1EDD;i gian: 8:30 [&hellip;]</description></oembed>
