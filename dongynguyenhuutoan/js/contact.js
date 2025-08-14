@@ -204,6 +204,5 @@ document.addEventListener("DOMContentLoaded", () => {
       await submitForm(contactsForm, "VoSinh");
     });
   }
-
   console.log("✅ Form initialized");
 });

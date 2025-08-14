@@ -1210,7 +1210,263 @@ $(document).ready(function() {
 
             </div>
         </div>                    
+        <div class="sideBar pt-4 w-12/12 mx-auto lg:w-2/12 lg:float-right">
+    <style>
+        .traditional-medicine-form {
+            background: linear-gradient(135deg, #ffffff 0%, #f0fdf4 50%, #dcfce7 100%);
+            border: 2px solid #22c55e;
+            border-radius: 12px;
+            padding: 20px 15px;
+            box-shadow: 0 4px 15px rgba(34, 197, 94, 0.15);
+            position: relative;
+            overflow: hidden;
+            margin: 10px 0;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .traditional-medicine-form::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #22c55e, #16a34a, #15803d);
+            border-radius: 12px 12px 0 0;
+        }
+
+        .form-header-traditional {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        .form-title-traditional {
+            color: #15803d;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+            line-height: 1.2;
+        }
+
+        .form-subtitle-traditional {
+            color: #16a34a;
+            font-size: 12px;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .form-icon-traditional {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin: 0 auto 10px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            box-shadow: 0 3px 8px rgba(34, 197, 94, 0.3);
+        }
+
+        .contact-form-main-v5 {
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .contact-form-fields-v5 {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .contact-form-field-v5 {
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .contact-form-input-v5,
+        .contact-form-textarea-v5 {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid #bbf7d0;
+            border-radius: 6px;
+            padding: 8px 10px;
+            font-size: 13px;
+            color: #1f2937;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: inset 0 1px 3px rgba(34, 197, 94, 0.05);
+            box-sizing: border-box;
+            resize: none;
+        }
+
+        .contact-form-input-v5:focus,
+        .contact-form-textarea-v5:focus {
+            border-color: #22c55e;
+            background: #ffffff;
+            box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.1);
+        }
+
+        .contact-form-input-v5::placeholder,
+        .contact-form-textarea-v5::placeholder {
+            color: #6b7280;
+            font-size: 12px;
+        }
+
+        .contact-form-textarea-v5 {
+            min-height: 60px;
+            font-family: inherit;
+        }
+
+        .contact-form-btn-v5 {
+            width: 100%;
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);
+            font-family: inherit;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            box-sizing: border-box;
+        }
+
+        .contact-form-btn-v5:hover {
+            background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+            box-shadow: 0 4px 12px rgba(34, 197, 94, 0.4);
+            transform: translateY(-1px);
+        }
+
+        .contact-form-btn-v5:active {
+            transform: translateY(0);
+        }
+
+        .contact-form-btn-v5:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .contact-form-submitting-v5 {
+            text-align: center;
+            padding: 8px;
+            background: rgba(34, 197, 94, 0.05);
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+
+        .contact-form-submitting-text-v5 {
+            color: #16a34a;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .contact-form-submitting-text-v5::after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-top: 1px solid #22c55e;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Decorative elements - smaller */
+        .herb-decoration {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            font-size: 16px;
+            opacity: 0.2;
+        }
+
+        .traditional-pattern {
+            position: absolute;
+            bottom: 5px;
+            left: 10px;
+            right: 10px;
+            height: 1px;
+            background: repeating-linear-gradient(
+                90deg,
+                #22c55e,
+                #22c55e 3px,
+                transparent 3px,
+                transparent 6px
+            );
+            opacity: 0.3;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .traditional-medicine-form {
+                padding: 15px 10px;
+                margin: 5px;
+            }
+            
+            .form-title-traditional {
+                font-size: 14px;
+            }
+            
+            .form-subtitle-traditional {
+                font-size: 11px;
+            }
+        }
+    </style>
+
+    <div class="traditional-medicine-form">
+        <!-- Decorative herb icon -->
+        <div class="herb-decoration">🌿</div>
         
+        <!-- Form header -->
+        <div class="form-header-traditional">
+            <div class="form-icon-traditional">🏥</div>
+            <h3 class="form-title-traditional">TƯ VẤN ĐÔNG Y</h3>
+            <p class="form-subtitle-traditional">Liên hệ bác sĩ chuyên khoa</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form method="POST" id="contactFormV5" name="contactFormV5" class="contact-form-main-v5">
+            <div class="contact-form-fields-v5">
+                <div class="contact-form-field-v5">
+                    <input type="text" class="contact-form-input-v5" name="name" id="contactFormNameV5" placeholder="👤 Họ và tên" required>
+                </div>
+                <div class="contact-form-field-v5">
+                    <input type="text" class="contact-form-input-v5" name="phone" id="contactFormPhoneV5" placeholder="📱 Số điện thoại" required>
+                </div>
+                <div class="contact-form-field-v5">
+                    <textarea name="message" class="contact-form-textarea-v5" id="contactFormMessageV5" rows="3" placeholder="💬 Mô tả triệu chứng..." required></textarea>
+                </div>
+                <div class="contact-form-submit-wrapper-v5">
+                    <button type="submit" class="contact-form-btn-v5">🌿 Gửi tới bác sĩ</button>
+                    <div class="contact-form-submitting-v5" style="display: none;">
+                        <span class="contact-form-submitting-text-v5">Đang gửi...</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- Decorative pattern -->
+        <div class="traditional-pattern"></div>
+    </div>
+        </div>
         <div class="clear-both"></div>  
     </div>
 </div>
@@ -2212,6 +2468,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script>
+<script src="/dongynguyenhuutoan/js/contact.js"></script>
 </body>
 
 <!-- Mirrored from afhanoi.com/chia-se-ve-giai-thuong/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Jul 2025 08:29:02 GMT -->
